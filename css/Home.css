@@ -25,30 +25,35 @@ footer i{
 
 header{
     background-color: #615e61;
+    margin-bottom: 50px;
+    border: black;
+    border-style: solid;
+    border-width: 2px;
 }
 
 .tracks{
-    background-color: lightblue;
+    background-color: black;
     margin-bottom: 20px;
 }
 
 .artists{
-    background-color: lightcoral;
+    background-color: black;
     margin-bottom: 20px;
 }
 
 .album{
-    background-color: lightseagreen;
+    background-color: black;
     margin-bottom: 20px;
 }
 
 .Titulos{
-    background-color: lightslategray;
+    background-color: gray;
+    padding: 10px 10px 10px;
 }
 
 .preview{
     background-color: darkgrey;
-    margin-bottom: 20px;
+    margin-bottom: -13px;
 }
 
 div.todos{
@@ -65,4 +70,13 @@ img{
     height: 77px;
     margin-left: 2vw;
     border-radius: 20%;
+}
+
+div.names{
+    grid-template-columns: 20vw 28vw 20vw 27vw;
+    grid-template-rows: 40px;
+    display: grid;
+    background-color: darkgray;
+    padding-left: 2vw;
+    text-align: center;
 }
