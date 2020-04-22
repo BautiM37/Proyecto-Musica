@@ -21,14 +21,17 @@ header{
 
 .tracks{
     background-color: lightblue;
+    margin-bottom: 20px;
 }
 
 .artists{
     background-color: lightcoral;
+    margin-bottom: 20px;
 }
 
 .album{
     background-color: lightseagreen;
+    margin-bottom: 20px;
 }
 
 .Titulos{
