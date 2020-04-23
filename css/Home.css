@@ -118,27 +118,8 @@ i.fa-chevron-right{
 
 
 @media (min-width: 1024px){
-    body
-    {
-        background-color:lightgreen;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    body{
+        background-color:lightgreen;
+        background-image: none;
+    }
 }
