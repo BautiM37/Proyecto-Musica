@@ -32,17 +32,17 @@ header{
 }
 
 .tracks{
-    background-color: black;
+    background-color: gray;
     margin-bottom: 20px;
 }
 
 .artists{
-    background-color: black;
+    background-color: gray;
     margin-bottom: 20px;
 }
 
 .album{
-    background-color: black;
+    background-color: gray;
     margin-bottom: 20px;
 }
 
@@ -52,6 +52,13 @@ header{
 }
 
 .preview{
+    background-color: darkgrey;
+    margin-bottom: -13px;
+}
+div.previewART img{
+    border-radius: 50%;
+}
+div.previewART{
     background-color: darkgrey;
     margin-bottom: -13px;
 }
