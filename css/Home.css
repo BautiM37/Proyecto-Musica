@@ -1,6 +1,7 @@
 body{
     color: whitesmoke;
     background-image: url(../img/rayos\ azules2.jpg);
+    background-attachment: fixed;
 }
 a{
     text-decoration: none;
