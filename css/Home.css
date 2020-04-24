@@ -1,6 +1,6 @@
 body{
     color: whitesmoke;
-    background-image: url(../img/rayos\ azules2.jpg);
+    background-image: url(../img/Triangulos\ mix.jpg);
     background-attachment: fixed;
 }
 a{
@@ -115,7 +115,6 @@ h4.tit{
 i.fa-chevron-right{
     float: right;
 }
-
 
 @media (min-width: 1024px){
     body{
