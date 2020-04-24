@@ -1,15 +1,15 @@
-body{
+body.pro{
     color: whitesmoke;
     background-image: url(../img/Triangulos\ mix.jpg);
     background-attachment: fixed;
 }
-a{
+a.links{
     text-decoration: none;
     color: whitesmoke;
     font-size: 16px;
 }
 
-footer{
+footer.icons{
     position: fixed; 
     padding: 10px 10px 20px 15px; 
     bottom: 0; 
@@ -19,14 +19,14 @@ footer{
     margin-left: -8px;
 }
 
-footer i{
+footer i.fas{
     color: lightgray;
     width: 19vw;
     margin-left: 5vw;
     margin-top: 18px;
 }
 
-header{
+header.header{
     background-color: #262626;
     margin-bottom: 50px;
     border: black;
@@ -34,10 +34,10 @@ header{
     border-width: 2px;
     border-radius: 6%;
 }
-header h1{
+header h1.WeMusic{
     margin-left: 8px;
 }
-header h3{
+header h3.Deezer{
     margin-left: 8px;
 }
 
@@ -84,7 +84,7 @@ div.todos{
     border-radius: 6%;
 }
 
-img{
+img.img{
     max-height: 150px;
     max-width: 200px;
     width: 77px;
