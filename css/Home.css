@@ -121,12 +121,12 @@ i.fa-chevron-right{
     body
     {
     background-color:lightgreen;
+    background-image: none;
     }
 
 .header{
     background-color: green;
-
-
+    align-content: center;
 }
 
 
