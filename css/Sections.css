@@ -42,6 +42,7 @@ div.comienzo{
     grid-template-rows: 100px 900px;
     display: grid;
     margin-top: 20px;
+    margin-left: 0.5vw;
 }
 
 h1.tit1{
