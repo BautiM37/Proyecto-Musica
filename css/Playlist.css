@@ -37,9 +37,9 @@ a.return{
 }
 
 div.comienzo{
-    height: 1000px;
+    height: 550px;
     grid-template-columns: 95vw;
-    grid-template-rows: 100px 900px;
+    grid-template-rows: 100px 450px;
     display: grid;
     margin-top: 20px;
     margin-left: 0.5vw;
@@ -94,7 +94,7 @@ p.nums{
 p.ultnum{
     float: left;
     margin-right: 7px;
-    padding: 10px 4px;
+    padding: 10px 8px;
 }
 
 p.name{
@@ -113,7 +113,7 @@ div.ref1{
 div.ref2{
     background-color: rgba(61, 61, 61, 0.5);
     display: grid;
-    grid-template-rows: 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px;
+    grid-template-rows: 90px 90px 90px 90px 90px;
     grid-template-columns: 95vw;
 }
 
