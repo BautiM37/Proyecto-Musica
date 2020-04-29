@@ -37,9 +37,9 @@ a.return{
 }
 
 div.comienzo{
-    height: 1000px;
+    height: 550px;
     grid-template-columns: 95vw;
-    grid-template-rows: 100px 900px;
+    grid-template-rows: 100px 450px;
     display: grid;
     margin-top: 20px;
     margin-left: 0.5vw;
@@ -60,7 +60,7 @@ section.song{
     margin-left: 8px;
     margin-top: 10px;
     margin-right: 8px;
-    border-bottom: black 1px dotted;
+    border-bottom: black 1px dotted
 }
 
 section.ultsong{
@@ -72,17 +72,33 @@ section.ultsong{
 
 img.tops{
     max-width: 100vw;
-    max-height: 90%;
+    max-height: 45%;
     border: black 1px solid;
-    border-radius: 20%;
+    border-top-left-radius: 20%;
     float: left;
 }
-img.topsART{
+img.topR{
     max-width: 100vw;
-    max-height: 90%;
+    max-height: 45%;
     border: black 1px solid;
-    border-radius: 50%;
+    border-top-right-radius: 20%;
     float: left;
+}
+img.botL{
+    max-width: 100vw;
+    max-height: 45%;
+    border: black 1px solid;
+    border-bottom-left-radius: 20%;
+    float: left;
+    margin-top: -1px;
+}
+img.botR{
+    max-width: 100vw;
+    max-height: 45%;
+    border: black 1px solid;
+    border-bottom-right-radius: 20%;
+    float: left;
+    margin-top: -1px;
 }
 
 p.nums{
@@ -90,18 +106,23 @@ p.nums{
     margin-right: 7px;
     padding: 10px 8px;
 }
+p.num1{
+    float: left;
+    margin-right: 10px;
+    padding: 10px 8px;
+}
 
 p.ultnum{
     float: left;
     margin-right: 7px;
-    padding: 10px 4px;
+    padding: 10px 8px;
 }
 
 p.name{
     margin-left: 123px;
     padding: 12px;
     font-size: 16px;
-
+    margin-top: -23px;
 }
 
 div.ref1{
@@ -113,7 +134,7 @@ div.ref1{
 div.ref2{
     background-color: rgba(61, 61, 61, 0.5);
     display: grid;
-    grid-template-rows: 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px;
+    grid-template-rows: 90px 90px 90px 90px 90px;
     grid-template-columns: 95vw;
 }
 
@@ -121,8 +142,6 @@ div.updated{
     text-align: center;
     margin-bottom: 33px;
 }
-
-
 
 .blackhole{
     background-color: black;
