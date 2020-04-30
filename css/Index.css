@@ -122,8 +122,8 @@ i.fa-chevron-right{
 
 @media (min-width: 1023px){
 body.pro{
-        background-color: grey;
-        background-image: none;
+        
+        background-image: url(../img/Fondo\ pc.jpg);
 }
 
 footer.icons{
@@ -138,11 +138,21 @@ footer.icons{
 
 img.img{
         align-content: center;
+        margin-left: 60px;
 }
 
 header.header{
-    
-    padding-left: 400px;
+        padding-left: 400px;
 }
+
+h4.tit{
+        margin-left: 450px;
+}
+
+
+
+
+
+
     
 }
