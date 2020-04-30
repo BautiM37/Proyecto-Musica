@@ -1,6 +1,6 @@
 body.whole{
     color: whitesmoke;
-    background-image: url(../img/Triangulos\ mix.jpg);
+    background-image: url(../img/Fondo\ pc.jpg);
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Montserrat', sans-serif !important;
@@ -17,10 +17,12 @@ header.yes{
 h1.yes{
     margin-left: 8px;
     color: whitesmoke;
+    text-align: center;
 }
 h3.yes{
     margin-left: 8px;
     color: whitesmoke;
+    text-align: center;
 }
 
 div.volver{
@@ -146,3 +148,5 @@ footer i.fas{
     margin-left: 5vw;
     margin-top: 18px;
 }
+
+
