@@ -148,5 +148,64 @@ footer i.fas{
     margin-left: 5vw;
     margin-top: 18px;
 }
+p.nomic{
+    display: none;
+}
 
+p.nosfoot{
+    display: none;
+}
 
+@media (min-width: 1023px){
+header.yes{
+    width: 80vw;
+    margin-left: 17vw;
+}
+
+div.comienzo{
+    margin-left: 17vw;
+}
+
+.ref1{
+    width: 80vw;
+}
+
+.ref2{
+    width: 80vw;
+}
+
+footer.icons{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 15vw;
+    height: 100vh;
+    position: fixed;
+}
+p.nomic{
+    display: block;
+    margin-left: 4vw;
+    margin-right: 2vw;
+    margin-top: -27px;
+}
+footer i.fas{
+    margin-left: 2vw;
+    margin-bottom: 10px;
+}
+
+footer i.fa-home{
+    margin-top: 5vw;
+}
+
+p.nosfoot{
+    display: block;
+    position: absolute;
+    bottom: 4vh;
+    left: 2vw;
+    font-size: 15px;
+}
+
+.blackhole{
+    display: none;
+}
+}

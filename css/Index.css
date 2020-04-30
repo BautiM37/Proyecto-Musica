@@ -95,6 +95,15 @@ img.img{
     border-radius: 20%;
 }
 
+div p.nosotros{
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 33px;
+}
+p.nosfoot{
+    display: none;
+}
+
 div.names{
     grid-template-columns: 23vw 24vw 24vw 24vw;
     grid-template-rows: 40px;
@@ -160,7 +169,8 @@ img.img{
     max-width: 300px;
     width: 200px;
     height: 200px;
-    margin-left: 2vw;
+    margin-left: 3vw;
+    margin-right: 2.5vw;
     border-radius: 20%;
 }
 
@@ -199,6 +209,17 @@ footer i.fas{
 
 footer i.fa-home{
     margin-top: 5vw;
+}
+
+div p.nosotros{
+    display: none;
+}
+p.nosfoot{
+    display: block;
+    position: absolute;
+    bottom: 4vh;
+    left: 2vw;
+    font-size: 15px;
 }
 
 }
