@@ -123,13 +123,26 @@ i.fa-chevron-right{
 @media (min-width: 1023px){
 body.pro{
         background-color: grey;
-        background-image: none;}
-
-footer.icons{
-        position: initial;
-
+        background-image: none;
 }
 
+footer.icons{
+        position: static;
+}
 
+.blackhole{
+        color:  grey;
+        width: 0px;
+        height: 0px;
+}
 
+img.img{
+        align-content: center;
+}
+
+header.header{
+    
+    padding-left: 400px;
+}
+    
 }
