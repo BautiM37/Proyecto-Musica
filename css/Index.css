@@ -96,14 +96,15 @@ img.img{
 }
 
 div.names{
-    grid-template-columns: 20vw 28vw 20vw 27vw;
+    grid-template-columns: 23vw 24vw 24vw 24vw;
     grid-template-rows: 40px;
     display: grid;
     background-color: #3d3d3d;
-    padding-left: 2vw;
+    padding-left: 1vw;
     text-align: center;
     font-size: 13px;
     margin-top: 2px;
+    max-width: 95vw;
 }
 
 .blackhole{
@@ -120,6 +121,14 @@ i.fa-chevron-right{
     float: right;
 }
 
+p.nomic{
+    display: none;
+}
+
+div.generalizada{
+    display: none;
+}
+
 @media (min-width: 1023px){
 body.pro{
         margin-right: 0px;
@@ -127,19 +136,32 @@ body.pro{
 }
 
 footer.icons{
-        position: relative;
-        position: static;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 15vw;
+        height: 100vh;
+        position: fixed;
 }
-
+       
 .blackhole{
         color:  grey;
         width: 0px;
         height: 0px;
 }
 
+header.header{
+    width: 80vw;
+    margin-left: 17vw;
+}
+
 img.img{
-        align-content: center;
-        margin-left: 60px;
+    max-height: 280px;
+    max-width: 300px;
+    width: 200px;
+    height: 200px;
+    margin-left: 2vw;
+    border-radius: 20%;
 }
 
 h1.WeMusic{
@@ -150,19 +172,33 @@ h3.Deezer{
     text-align: center;
 }
 
-h4.tit{
-        margin-left: 450px;
+div.todos{
+    max-width: 80vw;
+    margin-right: 2vw;
+    margin-left: 17vw;
+    border: black 3px solid;
+    margin-top: 20px;
+    height: 380px;
 }
 
-div.aside{
-    background-color: black;
-    display: grid;
-    grid-template-rows: 50px 50px 50px 50px;
-    grid-template-columns: 30px;
+p.nomic{
+    display: block;
+    margin-left: 4vw;
+    margin-right: 2vw;
+    margin-top: -27px;
 }
 
-div.cuerpo{ 
-    display: grid;
-    grid-template-columns: 500px 500px;
+.preview{
+    height: 200px;
 }
+
+footer i.fas{
+    margin-left: 2vw;
+    margin-bottom: 10px;
+}
+
+footer i.fa-home{
+    margin-top: 5vw;
+}
+
 }
