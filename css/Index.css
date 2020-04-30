@@ -142,8 +142,12 @@ img.img{
         margin-left: 60px;
 }
 
-header.header{
-        padding-left: 400px;
+h1.WeMusic{
+    text-align: center;
+}
+
+h3.Deezer{
+    text-align: center;
 }
 
 h4.tit{
