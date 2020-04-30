@@ -197,6 +197,11 @@ footer i.fa-home{
     margin-top: 5vw;
 }
 
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
 p.nosfoot{
     display: block;
     position: absolute;
@@ -208,4 +213,5 @@ p.nosfoot{
 .blackhole{
     display: none;
 }
+
 }

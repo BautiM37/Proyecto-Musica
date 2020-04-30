@@ -152,6 +152,11 @@ footer.icons{
         height: 100vh;
         position: fixed;
 }
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
        
 .blackhole{
         color:  grey;
@@ -169,7 +174,7 @@ img.img{
     max-width: 300px;
     width: 200px;
     height: 200px;
-    margin-left: 3vw;
+    margin-left: 3.25vw;
     margin-right: 2.5vw;
     border-radius: 20%;
 }
@@ -220,6 +225,16 @@ p.nosfoot{
     bottom: 4vh;
     left: 2vw;
     font-size: 15px;
+}
+
+.tit{
+    font-size: 20px;
+}
+
+div.names{
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    font-size: 15px;
+    padding-left: 0;
 }
 
 }
