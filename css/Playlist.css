@@ -165,3 +165,43 @@ footer i.fas{
     margin-left: 5vw;
     margin-top: 18px;
 }
+
+
+@media(min-width: 1024px){
+
+body.whole{
+        background-image: url(../img/Fondo\ pc.jpg);
+    }
+    h1.yes{
+        text-align: center;}
+    h3.yes{
+        text-align: center;
+    }
+
+    footer.icons{
+        position: static;
+    }
+    .blackhole{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
