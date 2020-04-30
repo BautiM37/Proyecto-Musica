@@ -122,11 +122,12 @@ i.fa-chevron-right{
 
 @media (min-width: 1023px){
 body.pro{
-        
+        margin-right: 0px;
         background-image: url(../img/Fondo\ pc.jpg);
 }
 
 footer.icons{
+        position: relative;
         position: static;
 }
 
@@ -149,10 +150,15 @@ h4.tit{
         margin-left: 450px;
 }
 
+div.aside{
+    background-color: black;
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 30px;
+}
 
-
-
-
-
-    
+div.cuerpo{ 
+    display: grid;
+    grid-template-columns: 500px 500px;
+}
 }
