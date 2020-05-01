@@ -174,17 +174,18 @@ p.nosfoot{
 img.fototop{
     width: 15vw;
     margin-top: 20px;
-    border-top-left-radius: none;
 }
 
 div.ref1{
     background-color: #262626;
-    height: 64vh;
+    height: 73vh;
     width: 80vw;
     border-top-left-radius: 6%;
     border-top-right-radius: 6%;
     text-align: center;
     margin-left: 17vw;  
+    border-bottom-right-radius: 6%;
+    border-bottom-left-radius: 6%;
 }
 
 div.ref2{
