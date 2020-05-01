@@ -36,9 +36,9 @@ a.return{
 }
 
 div.comienzo{
-    height: 1125px;
+    height: 675px;
     grid-template-columns: 95vw;
-    grid-template-rows: 225px 900px;
+    grid-template-rows: 225px 450px;
     display: grid;
     margin-top: 20px;
     margin-left: 0.5vw;
@@ -93,7 +93,13 @@ p.nums{
 p.ultnum{
     float: left;
     margin-right: 7px;
-    padding: 10px 4px;
+    padding: 10px 8px;
+}
+
+p.prinum{
+    float: left;
+    margin-right: 7px;
+    padding: 10px 10px; 
 }
 
 p.name{
@@ -115,11 +121,10 @@ div.ref1{
 div.ref2{
     background-color: rgba(61, 61, 61, 0.5  );
     display: grid;
-    grid-template-rows: 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px;
+    grid-template-rows: 90px 90px 90px 90px 90px;
     grid-template-columns: 95vw;
     padding-bottom: 0px;
-    margin-bottom: 0px;
-    
+    margin-bottom: 0px;    
 }
 
 div.updated{
@@ -160,30 +165,28 @@ p.nosfoot{
 }
 
 @media (min-width: 1023px){
-header.yes{
+
+    header.yes{
     width: 80vw;
     margin-left: 17vw;
 }
 
-
-
 img.fototop{
     width: 15vw;
+    margin-top: 20px;
 }
 
 div.ref1{
     background-color: #262626;
-    height: 28vh;
+    height: 45vh;
     width: 80vw;
-    margin-bottom: 50px;
     border-top-left-radius: 6%;
     border-top-right-radius: 6%;
     text-align: center;
-    margin-left: 17vw;
-    
+    margin-left: 17vw;  
 }
 
-.ref2{
+div.ref2{
     width: 80vw;
     margin-left: 17vw;
 }
@@ -231,14 +234,23 @@ p.nosfoot{
 div.ref2{
     background-color: rgba(61, 61, 61, 0.6  );
     display: grid;
-    grid-template-rows: 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px;
+    grid-template-rows: 90px 90px 90px 90px 90px;
     grid-template-columns: 95vw;
-    margin-top: 300px;
+    margin-top: 19px;
     padding-bottom: unset;
 }
-section.ultsong{
-    display: none;
+
+div.comienzo{
+    height: 800px;
+    grid-template-columns: 95vw;
+    grid-template-rows: 350px 470px;
+    display: grid;
+    margin-top: 20px;
+    margin-left: 0.5vw;
 }
 
+.updated{
+    margin-top: 30px;
+}
 
 }
