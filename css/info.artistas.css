@@ -1,0 +1,101 @@
+body{
+    background-image: url(../img/Fondo\ pc.jpg);
+    position: fixed;
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover;
+}
+
+header.header{
+    background-color: #262626;
+    margin-bottom: 50px;
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 6%;
+    width: 80vw;
+    margin-left: 17vw;
+    }
+
+h1.WeMusic{
+    text-align: center;
+    color: white;
+}
+
+h3.Deezer{
+text-align: center;
+color: white;
+}
+
+footer.icons{
+    padding-right: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 15vw;
+    height: 100vh;
+    position: fixed;
+    background-color: black;
+    color: white;
+    }
+
+div.contenido-general{
+color: white;
+padding-left: 300px;
+}
+
+p.nosfoot{
+    display: block;
+    position: absolute;
+    bottom: 4vh;
+    left: 2vw;
+    font-size: 15px;
+}
+
+footer i.fa-home{
+    margin-top: 5vw;
+    }
+
+p.nomic{
+    display: block;
+    margin-left: 4vw;
+    margin-right: 2vw;
+    margin-top: -20px;
+}
+
+footer i.fa-home{
+    margin-top: 5vw;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+div.ref1{
+    background-color: #262626;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+    margin-left: 220px;
+    padding-top: 10px;
+    padding-bottom: 0px
+    padding-left: 0px;
+}
+
+h1.tit1{
+    color: white ;
+    padding-left: 20px;
+}
+
+h2.tit2a{
+    padding-left: 10px;
+    color: white;
+}
+
+.hola{
+    size: 300px;
+}
+
+
+
+
+      
