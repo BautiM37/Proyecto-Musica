@@ -1,6 +1,6 @@
 body.whole{
     color: whitesmoke;
-    background-image: url(../img/Fondo\ pc.jpg);
+    background-image: url(../img/fonde.jpg);
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Montserrat', sans-serif !important;
@@ -25,9 +25,23 @@ h3.yes{
     text-align: center;
 }
 
+.fa-chevron-left{
+    position: relative;
+    top: -38vh;
+    left: -38vw;
+}
+
 img.fototop{
     width: 30vw;
-    border-radius: 50%;
+    border-radius: 20%;
+    padding-top: 1vh;
+}
+
+h3.canal{
+    text-align: left;
+    margin-left: 2vw;
+    font-size: 15px;
+    margin-top: 26px;
 }
 
 a.return{
@@ -36,9 +50,9 @@ a.return{
 }
 
 div.comienzo{
-    height: 675px;
+    height: 795px;
     grid-template-columns: 95vw;
-    grid-template-rows: 225px 450px;
+    grid-template-rows: 42.3vh 450px;
     display: grid;
     margin-top: 20px;
     margin-left: 0.5vw;
@@ -111,11 +125,12 @@ p.name{
 
 div.ref1{
     background-color: #262626;
-    height: 28vh;
+    height: 42vh;
     margin-bottom: 50px;
     border-top-left-radius: 6%;
     border-top-right-radius: 6%;
-    text-align: center
+    text-align: center;
+    border-bottom: black 2px solid;
 }
 
 div.ref2{
@@ -149,6 +164,10 @@ footer.icons{
     background: black;
     margin-left: -8px;
 }
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
 
 footer i.fas{
     color: lightgray;
@@ -178,16 +197,19 @@ img.fototop{
 
 div.ref1{
     background-color: #262626;
-    height: 64vh;
+    height: 53vh;
     width: 80vw;
     border-top-left-radius: 6%;
     border-top-right-radius: 6%;
     text-align: center;
-    margin-left: 17vw;  }
+    margin-left: 17vw;  
+    border-bottom: black 5px solid;
+}
 
 div.ref2{
     width: 80vw;
     margin-left: 17vw;
+    margin-top: 2px;
 }
 
 footer.icons{
@@ -235,21 +257,39 @@ div.ref2{
     display: grid;
     grid-template-rows: 90px 90px 90px 90px 90px;
     grid-template-columns: 95vw;
-    margin-top: 19px;
     padding-bottom: unset;
 }
 
 div.comienzo{
     height: 800px;
     grid-template-columns: 95vw;
-    grid-template-rows: 350px 470px;
+    grid-template-rows: 53vh 460px;
     display: grid;
     margin-top: 20px;
     margin-left: 0.5vw;
 }
 
 .updated{
-    margin-top: 30px;
+    margin-top: 110px;
+}
+
+.canal{
+    text-align: left;
+    margin-left: 10px;
+}
+
+section.song{
+    width: 79vw;
+}
+
+section.ultsong{
+    width: 79vw;
+}
+
+.fa-chevron-left{
+    position: relative;
+    top: -49vh;
+    left: -38vw;
 }
 
 }

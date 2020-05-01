@@ -1,6 +1,6 @@
 body.whole{
     color: whitesmoke;
-    background-image: url(../img/Fondo\ pc.jpg);
+    background-image: url(../img/fonde.jpg);
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Montserrat', sans-serif !important;
@@ -25,9 +25,16 @@ h3.yes{
     text-align: center;
 }
 
+.fa-chevron-left{
+    position: relative;
+    top: -25vh;
+    left: -38vw;
+}
+
 img.fototop{
     width: 30vw;
     border-radius: 50%;
+    padding-top: 1vh;
 }
 
 a.return{
@@ -36,9 +43,9 @@ a.return{
 }
 
 div.comienzo{
-    height: 675px;
+    height: 695px;
     grid-template-columns: 95vw;
-    grid-template-rows: 225px 450px;
+    grid-template-rows: 30.3vh 450px;
     display: grid;
     margin-top: 20px;
     margin-left: 0.5vw;
@@ -111,11 +118,12 @@ p.name{
 
 div.ref1{
     background-color: #262626;
-    height: 28vh;
+    height: 30vh;
     margin-bottom: 50px;
     border-top-left-radius: 6%;
     border-top-right-radius: 6%;
-    text-align: center
+    text-align: center;
+    border-bottom: black 3px solid;
 }
 
 div.ref2{
@@ -163,13 +171,18 @@ p.nomic{
 p.nosfoot{
     display: none;
 }
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
 
 @media (min-width: 1023px){
 
-    header.yes{
+header.yes{
     width: 80vw;
     margin-left: 17vw;
 }
+
 
 img.fototop{
     width: 15vw;
@@ -179,17 +192,13 @@ img.fototop{
 
 div.ref1{
     background-color: #262626;
-    height: 64vh;
+    height: 45vh;
     width: 80vw;
     border-top-left-radius: 6%;
     border-top-right-radius: 6%;
     text-align: center;
     margin-left: 17vw;  
-}
-
-div.ref2{
-    width: 80vw;
-    margin-left: 17vw;
+    border-bottom: black 5px solid;
 }
 
 footer.icons{
@@ -239,6 +248,9 @@ div.ref2{
     grid-template-columns: 95vw;
     margin-top: 19px;
     padding-bottom: unset;
+    width: 80vw;
+    margin-left: 17vw;
+    margin-top: 21px;
 }
 
 div.comienzo{
@@ -253,5 +265,21 @@ div.comienzo{
 .updated{
     margin-top: 30px;
 }
+
+section.song{
+    width: 79vw;
+}
+
+section.ultsong{
+    width: 79vw;
+}
+
+.fa-chevron-left{
+    position: relative;
+    top: -40vh;
+    left: -38vw;
+}
+
+
 
 }

@@ -1,11 +1,15 @@
 body.whole{
     color: whitesmoke;
-    background-image: url(../img/Fondo\ pc.jpg);
+    background-image: url(../img/fonde.jpg);
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Montserrat', sans-serif !important;
 }
 
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
 header.yes{
     background-color: #262626;
     margin-bottom: 50px;
@@ -212,6 +216,14 @@ p.nosfoot{
 
 .blackhole{
     display: none;
+}
+
+section.song{
+    width: 79vw;
+}
+
+section.ultsong{
+    width: 79vw;
 }
 
 }

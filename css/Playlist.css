@@ -1,6 +1,6 @@
 body.whole{
     color: whitesmoke;
-    background-image: url(../img/Triangulos\ mix.jpg);
+    background-image: url(../img/fonde.jpg);
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Montserrat', sans-serif !important;
@@ -172,12 +172,16 @@ p.nomic{
 p.nosfoot{
     display: none;
 }
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
 
 
 @media(min-width: 1024px){
 
 body.whole{
-        background-image: url(../img/Fondo\ pc.jpg);
+    background-image: url(../img/fonde.jpg);
     }
     h1.yes{
         text-align: center;}
@@ -241,25 +245,13 @@ body.whole{
         width: 80vw;
         margin-left: 17vw;
     }
+
+    section.song{
+        width: 79vw;
+    }
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    section.ultsong{
+        width: 79vw;
+    }
+    
 }

@@ -1,6 +1,6 @@
 body.whole{
     color: whitesmoke;
-    background-image: url(../img/Fondo\ pc.jpg);
+    background-image: url(../img/fonde.jpg);
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Montserrat', sans-serif !important;
@@ -14,6 +14,13 @@ header.yes{
     border-width: 2px;
     border-radius: 6%;
 }
+
+.fa-chevron-left{
+    position: relative;
+    top: -38vh;
+    left: -38vw;
+}
+
 h1.yes{
     margin-left: 8px;
     color: whitesmoke;
@@ -27,7 +34,8 @@ h3.yes{
 
 img.fototop{
     width: 30vw;
-    border-radius: 50%;
+    border-radius: 20%;
+    margin-top: 10px;
 }
 
 a.return{
@@ -36,9 +44,9 @@ a.return{
 }
 
 div.comienzo{
-    height: 675px;
+    height: 48vh;
     grid-template-columns: 95vw;
-    grid-template-rows: 225px 450px;
+    grid-template-rows: 48vh;
     display: grid;
     margin-top: 20px;
     margin-left: 0.5vw;
@@ -111,25 +119,10 @@ p.name{
 
 div.ref1{
     background-color: #262626;
-    height: 28vh;
+    height: 48vh;
     margin-bottom: 50px;
-    border-top-left-radius: 6%;
-    border-top-right-radius: 6%;
+    border-radius: 6%;
     text-align: center
-}
-
-div.ref2{
-    background-color: rgba(61, 61, 61, 0.5  );
-    display: grid;
-    grid-template-rows: 90px 90px 90px 90px 90px;
-    grid-template-columns: 95vw;
-    padding-bottom: 0px;
-    margin-bottom: 0px;    
-}
-
-div.updated{
-    text-align: center;
-    margin-bottom: 33px;
 }
 
 
@@ -148,6 +141,10 @@ footer.icons{
     height: 40px; 
     background: black;
     margin-left: -8px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 footer i.fas{
@@ -174,23 +171,13 @@ p.nosfoot{
 img.fototop{
     width: 15vw;
     margin-top: 20px;
+
 }
 
 div.ref1{
-    background-color: #262626;
-    height: 73vh;
+    height: 55vh;
     width: 80vw;
-    border-top-left-radius: 6%;
-    border-top-right-radius: 6%;
-    text-align: center;
     margin-left: 17vw;  
-    border-bottom-right-radius: 6%;
-    border-bottom-left-radius: 6%;
-}
-
-div.ref2{
-    width: 80vw;
-    margin-left: 17vw;
 }
 
 footer.icons{
@@ -233,26 +220,19 @@ p.nosfoot{
     display: none;
 }
 
-div.ref2{
-    background-color: rgba(61, 61, 61, 0.6  );
-    display: grid;
-    grid-template-rows: 90px 90px 90px 90px 90px;
-    grid-template-columns: 95vw;
-    margin-top: 19px;
-    padding-bottom: unset;
-}
-
 div.comienzo{
-    height: 800px;
+    height: 55vh;
     grid-template-columns: 95vw;
-    grid-template-rows: 350px 470px;
+    grid-template-rows: 55vh;
     display: grid;
     margin-top: 20px;
     margin-left: 0.5vw;
 }
 
-.updated{
-    margin-top: 30px;
+.fa-chevron-left{
+    position: relative;
+    top: -48vh;
+    left: -38vw;
 }
 
 }

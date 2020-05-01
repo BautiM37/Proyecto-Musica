@@ -1,9 +1,13 @@
 body.whole{
     color: whitesmoke;
-    background-image: url(../img/Fondo\ pc.jpg);
+    background-image: url(../img/fonde.jpg);
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Montserrat', sans-serif !important;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 header.yes{
@@ -26,8 +30,9 @@ h3.yes{
 }
 
 img.fototop{
-    width: 30vw;
-    border-radius: 50%;
+    width: 35vw;
+    border-radius: 20%;
+    margin-top: 2vh;
 }
 
 a.return{
@@ -36,9 +41,9 @@ a.return{
 }
 
 div.comienzo{
-    height: 675px;
+    height: 635px;
     grid-template-columns: 95vw;
-    grid-template-rows: 225px 450px;
+    grid-template-rows: 22.3vh 450px;
     display: grid;
     margin-top: 20px;
     margin-left: 0.5vw;
@@ -49,10 +54,12 @@ h1.tit1{
     margin-bottom: -3px;
     margin-top: 0px;
     color: whitesmoke;
+    font-size: 20px;
 }
 
-p.subt1{
-    margin-left: 10px;
+h3.subt1{
+    margin-left: 20px;
+    text-align: left;
 }
 
 section.song{
@@ -111,11 +118,12 @@ p.name{
 
 div.ref1{
     background-color: #262626;
-    height: 28vh;
+    height: 22vh;
     margin-bottom: 50px;
     border-top-left-radius: 6%;
     border-top-right-radius: 6%;
-    text-align: center
+    text-align: center;
+    border-bottom: black 3px solid;
 }
 
 div.ref2{
@@ -129,7 +137,7 @@ div.ref2{
 
 div.updated{
     text-align: center;
-    margin-bottom: 33px;
+    margin-bottom: 23px;
 }
 
 
@@ -173,26 +181,15 @@ p.nosfoot{
 
 img.fototop{
     width: 15vw;
-    margin-top: 20px;
-    border-bottom-left-radius: 6%;
-    border-top-left-radius: 6%;
-    border-bottom-right-radius: 6%;
-    border-top-right-radius: 6%;
+    margin-top: 0px;
+    border-radius: 6%;
 }
 
 div.ref1{
-    background-color: #262626;
-    height: 55vh;
+    height: 25vh;
     width: 80vw;
-    border-top-left-radius: 6%;
-    border-top-right-radius: 6%;
-    text-align: center;
     margin-left: 17vw; 
-padding-top:9vh; }
-
-div.ref2{
-    width: 80vw;
-    margin-left: 17vw;
+    padding-top:9vh; 
 }
 
 footer.icons{
@@ -241,13 +238,14 @@ div.ref2{
     grid-template-rows: 90px 90px 90px 90px 90px;
     grid-template-columns: 95vw;
     margin-top: 19px;
-    padding-bottom: unset;
+    width: 80vw;
+    margin-left: 17vw;
 }
 
 div.comienzo{
-    height: 800px;
+    height: 720px;
     grid-template-columns: 95vw;
-    grid-template-rows: 350px 470px;
+    grid-template-rows: 32vh 470px;
     display: grid;
     margin-top: 20px;
     margin-left: 0.5vw;
@@ -255,6 +253,14 @@ div.comienzo{
 
 .updated{
     margin-top: 30px;
+}
+
+section.song{
+    width: 79vw;
+}
+
+section.ultsong{
+    width: 79vw;
 }
 
 }
