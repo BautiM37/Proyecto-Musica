@@ -179,11 +179,62 @@ body.whole{
     }
 
     footer.icons{
-        position: static;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 15vw;
+        height: 100vh;
+        position: fixed;
     }
+    p.nomic{
+        display: block;
+        margin-left: 4vw;
+        margin-right: 2vw;
+        margin-top: -27px;
+    }
+    footer i.fas{
+        margin-left: 2vw;
+        margin-bottom: 10px;
+    }
+    
+    footer i.fa-home{
+        margin-top: 5vw;
+    }
+    
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    
+    p.nosfoot{
+        display: block;
+        position: absolute;
+        bottom: 4vh;
+        left: 2vw;
+        font-size: 15px;
+    }
+    
     .blackhole{
         display: none;
     }
+    
+    div.comienzo{
+        margin-left: 17vw;
+    }
+    
+    .ref1{
+        width: 80vw;
+    }
+    
+    .ref2{
+        width: 80vw;
+    }
+
+    header.yes{
+        width: 80vw;
+        margin-left: 17vw;
+    }
+    
 
 
 
