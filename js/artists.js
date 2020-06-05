@@ -27,10 +27,10 @@ window.addEventListener("load", function() {
                 <p class="name"> `+ title +` </p></a>
             </section>
                 `
-                `
+                
                 
                 document.querySelector(".listadoArtistsPopulares").innerHTML += htmlArtists
             }
-            
+        } )
             
         })
