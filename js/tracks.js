@@ -1,6 +1,6 @@
 window.addEventListener("load", function() {
 
-    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
+    fetch("https://cors-anywhere.herokuapp.com/https://www.deezer.com/track/")
     .then(
         function(respuesta) {
             return respuesta.json();            
@@ -17,12 +17,12 @@ window.addEventListener("load", function() {
                 console.log (cadaTrack)
                 let img = cadaTrack.album.cover;
                 let num = cadaTrack.position;
-                let id = cadaTrack.link;
+                let id = cadaTrack.id;
                 let title = cadaTrack.title;
 
                 let htmlNuevoTrack =`
                 <section class="song">
-                <a href="` + id + `"><p class="nums">` + num + `</p>
+                <a href="Infotracks.html"><p class="nums">` + num + `</p>
                 <img class="tops" src="` + img + `" alt="">
                 <p class="name">` + title + `</p></a>
                 </section>   
