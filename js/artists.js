@@ -1,6 +1,8 @@
 window.addEventListener("load", function() {
 
-    fetch("https://api.deezer.com/artist/ " +  + " ")
+    let queryString = new URLSearchParams (location.search);
+    let codigoArtists = queryString.get()
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/ " +  + " ")
     .then(
         function(respuesta) {
             return respuesta.json();            
@@ -10,7 +12,7 @@ window.addEventListener("load", function() {
         function(informacion) {
             let artistasPopulares = informacion.data;
             
-            for (let index = 0; index < artistasPopulares.length; index++) {
+            for (let index = 0; index < 8; index++) {
                 const Artista = artistasPopulares[index];
                 let img = Artista.images.original.url;
                 
@@ -18,16 +20,16 @@ window.addEventListener("load", function() {
                 let title = Artista.title;
                 let id = Artista.id;
 
-                let htmlNuevoGif = `
-                    <li class="amarillito">
-                        <a href="detalleGif.html?idDeGif=` + id + `">
-                            <h2>` + title + `</h2>
-                        </a>
-                        <img src="` + img + `">
-                    </li>
+                let htmlArtists = `
+                <section class="song">
+                <p class="nums">1</p>
+                <a href="` + id + `"><img class="topsART" src="` + img + `" alt="">
+                <p class="name"> `+ title +` </p></a>
+            </section>
+                `
                 `
                 
-                document.querySelector(".listadoDeGifsPopulares").innerHTML += htmlNuevoGif
+                document.querySelector(".listadoArtistsPopulares").innerHTML += htmlArtists
             }
             
             
