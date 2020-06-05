@@ -122,6 +122,12 @@ div.ref2{
     grid-template-rows: 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px;
     grid-template-columns: 95vw;
 }
+div.ref3{
+    background-color: rgba(61, 61, 61, 0.5);
+    display: grid;
+    grid-template-rows: 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px;
+    grid-template-columns: 95vw;
+}
 
 div.updated{
     text-align: center;
@@ -177,6 +183,10 @@ div.comienzo{
 .ref2{
     width: 80vw;
 }
+.ref3{
+    width: 80vw;
+}
+
 
 footer.icons{
     position: absolute;
