@@ -69,7 +69,6 @@ div.todos{
     border: black;
     border-style: solid;
     border-width: 1px;
-    height: 240px;
     border-radius: 6%;
 }
 
@@ -93,38 +92,38 @@ p.nosfoot{
 
 div.names{
     grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
-    grid-template-rows: 80px;
     display: grid;
-    background-color: #3d3d3d;
+    background-color: #262626;
     text-align: center;
     font-size: 13px;
     margin-top: 2px;
     max-width: 100vw;
     justify-content: space-around;
+    border-radius: 20%;
 }
 
 div.nameAl{
     grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
-    grid-template-rows: 80px;
     display: grid;
-    background-color: #3d3d3d;
+    background-color: #262626;
     text-align: center;
     font-size: 13px;
     margin-top: 2px;
     max-width: 100vw;
     justify-content: space-around;
+    border-radius: 20%;
 }
 
 div.nameAr{
     grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
-    grid-template-rows: 80px;
     display: grid;
-    background-color: #3d3d3d;
+    background-color: #262626;
     text-align: center;
     font-size: 13px;
     margin-top: 2px;
     max-width: 100vw;
     justify-content: space-around;
+    border-radius: 20%;
 }
 
 img.art{
