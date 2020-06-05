@@ -2,7 +2,7 @@ window.addEventListener("load", function() {
 
     let queryString = new URLSearchParams (location.search);
     let codigoArtists = queryString.get()
-    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/ " +  + " ")
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/artists")
     .then(
         function(respuesta) {
             return respuesta.json();            
@@ -11,21 +11,23 @@ window.addEventListener("load", function() {
     .then(
         function(informacion) {
             let artistasPopulares = informacion.data;
-            
-            for (let index = 0; index < 8; index++) {
-                const Artista = artistasPopulares[index];
-                let img = Artista.images.original.url;
-                
-                
-                let title = Artista.title;
-                let id = Artista.id;
 
-                let htmlArtists = `
+            for (let index = 0; index < 10; index++) {
+                console.log(Artista)
+                const Artista = artistasPopulares[index];
+                let img = Artista.picture;
+                
+                
+                let title = data.title;
+                let id = data.id;
+
+                let htmlArtists = 
+                `
                 <section class="song">
                 <p class="nums">1</p>
-                <a href="` + id + `"><img class="topsART" src="` + img + `" alt="">
-                <p class="name"> `+ title +` </p></a>
-            </section>
+                <a href="` + id + `"><img class="topsART" src="` + picture + `" alt="">
+                <p class="name"> `+ name +` </p></a>
+                </section>
                 `
                 
                 
