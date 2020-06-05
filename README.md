@@ -1,2 +1,2 @@
 # Proyecto-Musica
-Bautista Migliore y Estanislao Ron
+Bautista Migliore, Estanislao Ron y Martin Gutman
