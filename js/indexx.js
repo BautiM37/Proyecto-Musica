@@ -69,4 +69,40 @@ window.addEventListener("load", function() {
             
         }
     )
+
+     // ACA VIENEN LOS ARTISTS//
+
+     fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
+     .then(
+         function(respuesta) {
+             return respuesta.json();            
+         }
+     )
+     .then(
+         function(informacion) {
+             console.log (informacion)
+             let artistsPopulares = informacion.artists.data;
+ 
+             for (let index = 0; index <= 3; index++) {
+ 
+                 const cadaArtist = artistsPopulares[index];
+                 console.log (cadaArtist)
+                 let img = cadaArtist.picture;
+                 
+                 
+                 let title = cadaArtist.name;
+ 
+                 let htmlNuevoArtist =`
+                 <section>
+                 <img class="art" src="` + img + `" alt="">
+                 <p class="nom"> ` + title + ` </p>
+                 </section>
+                 `  
+                 document.querySelector(".nameAr").innerHTML += htmlNuevoArtist
+             }
+             
+             
+         }
+     )
+
 })

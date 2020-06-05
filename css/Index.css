@@ -64,14 +64,6 @@ header h3.Deezer{
     border-radius: 6%;
 }
 
-div.previewART img{
-    border-radius: 50%;
-}
-div.previewART{
-    background-color: #3d3d3d;
-    margin-bottom: -13px;
-    padding-top: 10px;
-}
 
 div.todos{
     border: black;
@@ -121,6 +113,27 @@ div.nameAl{
     margin-top: 2px;
     max-width: 100vw;
     justify-content: space-around;
+}
+
+div.nameAr{
+    grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
+    grid-template-rows: 80px;
+    display: grid;
+    background-color: #3d3d3d;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 2px;
+    max-width: 100vw;
+    justify-content: space-around;
+}
+
+img.art{
+    max-height: 150px;
+    max-width: 200px;
+    width: 18vw;
+    height: auto;
+    border-radius: 50%;
+    padding-top: 0.5vh;
 }
 
 p.nom{
@@ -253,6 +266,22 @@ div.nameAl{
     grid-template-columns: 20vw 20vw 20vw 20vw;
     font-size: 15px;
     padding-left: 0;
+}
+
+div.nameAr{
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    font-size: 15px;
+    padding-left: 0;
+}
+
+img.art{
+    max-height: 280px;
+    max-width: 300px;
+    width: 200px;
+    height: 200px;
+    margin-left: 3.25vw;
+    margin-right: 2.5vw;
+    border-radius: 50%;
 }
 
 }
