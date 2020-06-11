@@ -1,5 +1,5 @@
 window.addEventListener("load", function() {
-console.log ("hola")
+
         fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/artists")
         .then(
             function(respuesta) {
@@ -11,20 +11,21 @@ console.log ("hola")
                 console.log (informacion)
                 let artistasPopulares = informacion.data;
     
-                for (let index = 0; index <= 10; index++) {
+                for (let index = 0; index <= 9; index++) {
     
-                    const cadaArtists = artistasPopulares[index].name;
+                    const cadaArtists = artistasPopulares[index];
                     console.log (cadaArtists)
-                    let img = cadaArtists;
-                    let title = cadaArtists.title;
-                    let posision =  cadaArtists.position;
+
+                    let img = cadaArtists.picture;
+                    let name = cadaArtists.name;
+                    let position =  cadaArtists.position;
     
                     let htmlNuevoArtists =
                     `
                     <section class="song">
-                    <p class="nums"> </p>
-                    <a href="Infoartistas.html"> <img class="topsART" src= "`+ data.picture + `" alt="">
-                    <p class="name">` + data.title + `</p></a>
+                    <p class="nums">` + position + `</p>
+                    <a href="Infoartistas.html"> <img class="topsART" src= "`+ img + `" alt="">
+                    <p class="name">` + name + `</p></a>
                     </section>
                     `  
                     document.querySelector(".ref2").innerHTML += htmlNuevoArtists
