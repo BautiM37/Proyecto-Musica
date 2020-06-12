@@ -26,7 +26,7 @@ window.addEventListener("load", function() {
             <h1 class="tit1">` + album + `</h1>
             <a href="Info.artistas.html"><p class="subt1">Artista: ` + name + `</p></a>
             <p>Fecha de publicación: ` + date + `</p>
-            <p>Género: <a href="Genero.html?">` + genero + `</a></p>
+            <p>Género: <a href="infoGenre.html?idGenre= ` + idGen + `">` + genero + `</a></p>
             <a href="Albums.html"><i class="fas fa-chevron-left"></i></a>
             `
 
@@ -46,23 +46,22 @@ window.addEventListener("load", function() {
         .then(
             function(resultado) {
                 console.log (resultado)
+                const tracksAlbums = resultado.tracks.data;
     
-                for (let index = 0; index <= 4; index++) {
+                for (let index = 0; index <= tracksAlbums.length; index++) {
     
-                const cadaTop = resultado.data[index];
+                const cadaAlbum = tracksAlbums[index];
     
-                let name = cadaTop.title;
-                let id = cadaTop.id;
-                let img = cadaTop.album.cover;
+                let name = cadaAlbum.title;
+                let id = cadaAlbum.id;
+                let img = resultado.cover;
     
                 let nuevoHtmlTops = `
-                    <section class="song">
-                    <a href="Infotracks.html?idTrack= ` + id + `">
-                    <p class="nums"> - </p>
-                    <img class="tops" src="` + img + `" alt="">
-                    <p class="name"> ` + name + `</p>
-                    </a>
-                    </section>
+                <section class="song">
+                <p class="nums"> - </p>
+                <a href="Infotracks.html?idTrack=` + id + `"> <img class="tops" src= "`+ img + `" alt="">
+                <p class="name">` + name + `</p></a>
+                </section>
                 `
     
                 document.querySelector(".ref2").innerHTML += nuevoHtmlTops
