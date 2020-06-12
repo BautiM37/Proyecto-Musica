@@ -36,7 +36,10 @@ div.volver{
     text-align: center;
     border-radius: 6%;
 }
-
+.hyper{
+    color:white;
+    padding-left: 25px;
+}
 a.return{
     color: whitesmoke;
     text-decoration: none;

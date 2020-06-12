@@ -21,7 +21,7 @@ window.addEventListener("load", function() {
 
                 let htmlNuevoGenre =`
                 <section class="genre">
-                <a href="Infogenres.html?idGenre= ` + id + `"><p class="nums"> - </p>
+                <a href="infoGenres.html?idGenre= ` + id + `"><p class="nums"> - </p>
                 <img class="tops" src="` + img + `" alt="">
                 <p class="name">` + title + `</p></a>
                 </section>   

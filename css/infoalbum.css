@@ -161,6 +161,10 @@ p.nomic{
 p.nosfoot{
     display: none;
 }
+.hyper{
+    color:white;
+    padding-left: 25px;
+}
 
 @media (min-width: 1023px){
 

@@ -149,6 +149,10 @@ p.nom{
 h4.tit{
     width: 80vw;
 }
+.hyper{
+    color:white;
+    padding-left: 25px;
+}
 
 i.fa-chevron-right{
     float: right;

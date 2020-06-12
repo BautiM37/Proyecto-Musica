@@ -5,6 +5,10 @@ body.whole{
     background-size: cover;
     font-family: 'Montserrat', sans-serif !important;
 }
+.hyper{
+    color:white;
+    padding-left: 25px;
+}
 
 a{
     text-decoration: none;
