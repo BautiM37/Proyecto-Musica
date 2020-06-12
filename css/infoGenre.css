@@ -1,0 +1,269 @@
+body.whole{
+    color: whitesmoke;
+    background-image: url(../img/fonde.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+header.yes{
+    background-color: #262626;
+    margin-bottom: 50px;
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 6%;
+}
+h1.yes{
+    margin-left: 8px;
+    color: whitesmoke;
+    text-align: center;
+}
+h3.yes{
+    margin-left: 8px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.fa-chevron-left{
+    position: absolute;
+    top: 28vh;
+    left: 10vw;
+}
+
+img.fototop{
+    width: 30vw;
+    border-radius: 50%;
+    padding-top: 1vh;
+}
+
+a.return{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+div.comienzo{
+    grid-template-columns: 95vw;
+    display: grid;
+    margin-top: 20px;
+    margin-left: 1.5vw;
+}
+
+h1.tit1{
+    padding-top: 20px;
+    margin-left: 8px;
+    margin-bottom: -3px;
+    margin-top: 0px;
+    color: whitesmoke;
+}
+
+p.subt1{
+    margin-left: 10px;
+}
+
+section.song{
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-right: 8px;
+    border-bottom: black 1px dotted;
+}
+
+section.ultsong{
+    border: none;
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-right: 8px;
+}
+
+img.tops{
+    max-width: 100vw;
+    max-height: 90%;
+    border: black 1px solid;
+    border-radius: 20%;
+    float: left;
+}
+img.topsART{
+    max-width: 100vw;
+    max-height: 90%;
+    border: black 1px solid;
+    border-radius: 50%;
+    float: left;
+}
+
+p.nums{
+    float: left;
+    margin-right: 7px;
+    padding: 10px 8px;
+}
+
+p.name{
+    margin-left: 123px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+div.ref1{
+    background-color: #262626;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+    text-align: center;
+    border-bottom: black 3px solid;
+}
+
+div.ref2{
+    background-color: rgba(61, 61, 61, 0.5);
+    display: grid;
+    grid-template-rows: 90px 90px 90px 90px 90px;
+    grid-template-columns: 95vw;
+    padding-bottom: 0px;
+    margin-bottom: 0px;    
+}
+
+div.updated{
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+
+
+.blackhole{
+    background-color: black;
+    width: 95vw;
+    height: 50px;
+}
+
+footer.icons{
+    position: fixed; 
+    padding: 10px 10px 20px 15px; 
+    bottom: 0; 
+    width: 100%; 
+    height: 40px; 
+    background: black;
+    margin-left: -8px;
+}
+
+footer i.fas{
+    color: lightgray;
+    width: 19vw;
+    margin-left: 5vw;
+    margin-top: 18px;
+}
+p.nomic{
+    display: none;
+}
+
+p.nosfoot{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+@media (min-width: 1023px){
+
+header.yes{
+    width: 80vw;
+    margin-left: 17vw;
+}
+
+
+img.fototop{
+    width: 15vw;
+    margin-top: 20px;
+    border-top-left-radius: none;
+}
+
+div.ref1{
+    background-color: #262626;
+    height: 45vh;
+    width: 80vw;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+    text-align: center;
+    margin-left: 17vw;  
+    border-bottom: black 5px solid;
+}
+
+footer.icons{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 15vw;
+    height: 100vh;
+    position: fixed;
+}
+p.nomic{
+    display: block;
+    margin-left: 4vw;
+    margin-right: 2vw;
+    margin-top: -27px;
+}
+footer i.fas{
+    margin-left: 2vw;
+    margin-bottom: 10px;
+}
+
+footer i.fa-home{
+    margin-top: 5vw;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+p.nosfoot{
+    display: block;
+    position: absolute;
+    bottom: 4vh;
+    left: 2vw;
+    font-size: 15px;
+}
+
+.blackhole{
+    display: none;
+}
+
+div.ref2{
+    background-color: rgba(61, 61, 61, 0.6  );
+    display: grid;
+    grid-template-rows: 90px 90px 90px 90px 90px;
+    grid-template-columns: 95vw;
+    margin-top: 19px;
+    padding-bottom: unset;
+    width: 80vw;
+    margin-left: 17vw;
+    margin-top: 21px;
+}
+
+div.comienzo{
+    height: 800px;
+    grid-template-columns: 95vw;
+    grid-template-rows: 350px 470px;
+    display: grid;
+    margin-top: 20px;
+    margin-left: 0.5vw;
+}
+
+.updated{
+    margin-top: 30px;
+}
+
+section.song{
+    width: 79vw;
+}
+
+section.ultsong{
+    width: 79vw;
+}
+
+.fa-chevron-left{
+    position: relative;
+    top: -40vh;
+    left: -38vw;
+}
+
+
+
+}
