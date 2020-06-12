@@ -19,12 +19,13 @@ window.addEventListener("load", function() {
                     let img = cadaArtists.picture;
                     let name = cadaArtists.name;
                     let position =  cadaArtists.position;
+                    let id = cadaArtists.id;
     
                     let htmlNuevoArtists =
                     `
                     <section class="song">
                     <p class="nums">` + position + `</p>
-                    <a href="Infoartistas.html"> <img class="topsART" src= "`+ img + `" alt="">
+                    <a href="Info.artistas.html?idArtist=` + id + `"> <img class="topsART" src= "`+ img + `" alt="">
                     <p class="name">` + name + `</p></a>
                     </section>
                     `  
