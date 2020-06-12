@@ -14,11 +14,13 @@ header.yes{
     border-width: 2px;
     border-radius: 6%;
 }
+
 h1.yes{
     margin-left: 8px;
     color: whitesmoke;
     text-align: center;
 }
+
 h3.yes{
     margin-left: 8px;
     color: whitesmoke;
@@ -139,6 +141,7 @@ footer.icons{
     background: black;
     margin-left: -8px;
 }
+
 a{
     text-decoration: none;
     color: whitesmoke;
@@ -150,6 +153,7 @@ footer i.fas{
     margin-left: 5vw;
     margin-top: 18px;
 }
+
 p.nomic{
     display: none;
 }
@@ -160,7 +164,7 @@ p.nosfoot{
 
 @media (min-width: 1023px){
 
-    header.yes{
+header.yes{
     width: 80vw;
     margin-left: 17vw;
 }
@@ -244,6 +248,10 @@ section.ultsong{
     position: absolute;
     top: 27vh;
     left: 20vw;
+}
+
+.ref2{
+    width: 80vw;
 }
 
 }
