@@ -26,9 +26,9 @@ h3.yes{
 }
 
 .fa-chevron-left{
-    position: relative;
-    top: -38vh;
-    left: -38vw;
+    position: absolute;
+    top: 27vh;
+    left: 8vw;
 }
 
 img.fototop{
@@ -50,9 +50,7 @@ a.return{
 }
 
 div.comienzo{
-    height: 795px;
     grid-template-columns: 95vw;
-    grid-template-rows: 42.3vh 450px;
     display: grid;
     margin-top: 20px;
     margin-left: 0.5vw;
@@ -125,34 +123,11 @@ p.name{
 
 div.ref1{
     background-color: #262626;
-    height: 42vh;
     margin-bottom: 50px;
     border-top-left-radius: 6%;
     border-top-right-radius: 6%;
     text-align: center;
     border-bottom: black 2px solid;
-}
-
-div.ref2{
-    background-color: rgba(61, 61, 61, 0.5  );
-    display: grid;
-    grid-template-rows: 90px 90px 90px 90px 90px;
-    grid-template-columns: 95vw;
-    padding-bottom: 0px;
-    margin-bottom: 0px;    
-}
-
-div.updated{
-    text-align: center;
-    margin-bottom: 33px;
-}
-
-
-
-.blackhole{
-    background-color: black;
-    width: 95vw;
-    height: 50px;
 }
 
 footer.icons{
@@ -197,19 +172,12 @@ img.fototop{
 
 div.ref1{
     background-color: #262626;
-    height: 53vh;
     width: 80vw;
     border-top-left-radius: 6%;
     border-top-right-radius: 6%;
     text-align: center;
     margin-left: 17vw;  
     border-bottom: black 5px solid;
-}
-
-div.ref2{
-    width: 80vw;
-    margin-left: 17vw;
-    margin-top: 2px;
 }
 
 footer.icons{
@@ -248,22 +216,8 @@ p.nosfoot{
     font-size: 15px;
 }
 
-.blackhole{
-    display: none;
-}
-
-div.ref2{
-    background-color: rgba(61, 61, 61, 0.6  );
-    display: grid;
-    grid-template-rows: 90px 90px 90px 90px 90px;
-    grid-template-columns: 95vw;
-    padding-bottom: unset;
-}
-
 div.comienzo{
-    height: 800px;
     grid-template-columns: 95vw;
-    grid-template-rows: 53vh 460px;
     display: grid;
     margin-top: 20px;
     margin-left: 0.5vw;
@@ -287,9 +241,9 @@ section.ultsong{
 }
 
 .fa-chevron-left{
-    position: relative;
-    top: -49vh;
-    left: -38vw;
+    position: absolute;
+    top: 27vh;
+    left: 20vw;
 }
 
 }

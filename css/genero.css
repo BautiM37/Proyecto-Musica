@@ -5,11 +5,11 @@ body.whole{
     background-size: cover;
     font-family: 'Montserrat', sans-serif !important;
 }
+
 a{
     text-decoration: none;
     color: whitesmoke;
 }
-
 header.yes{
     background-color: #262626;
     margin-bottom: 50px;
@@ -29,10 +29,12 @@ h3.yes{
     text-align: center;
 }
 
-img.fototop{
-    width: 35vw;
-    border-radius: 20%;
-    margin-top: 2vh;
+div.volver{
+    background-color: #262626;
+    padding: 10px 10px 10px 10px;
+    width: 20vw;
+    text-align: center;
+    border-radius: 6%;
 }
 
 a.return{
@@ -41,9 +43,7 @@ a.return{
 }
 
 div.comienzo{
-    height: 635px;
     grid-template-columns: 95vw;
-    grid-template-rows: 22.3vh 450px;
     display: grid;
     margin-top: 20px;
     margin-left: 0.5vw;
@@ -52,42 +52,27 @@ div.comienzo{
 h1.tit1{
     margin-left: 8px;
     margin-bottom: -3px;
-    margin-top: 0px;
+    margin-top: 15px;
     color: whitesmoke;
-    font-size: 20px;
 }
 
-h3.subt1{
-    margin-left: 20px;
-    text-align: left;
+p.subt1{
+    margin-left: 10px;
 }
 
-section.song{
+section.genre{
     margin-left: 8px;
     margin-top: 10px;
     margin-right: 8px;
     border-bottom: black 1px dotted;
 }
 
-section.ultsong{
-    border: none;
-    margin-left: 8px;
-    margin-top: 10px;
-    margin-right: 8px;
-}
 
 img.tops{
     max-width: 100vw;
     max-height: 90%;
     border: black 1px solid;
     border-radius: 20%;
-    float: left;
-}
-img.topsART{
-    max-width: 100vw;
-    max-height: 90%;
-    border: black 1px solid;
-    border-radius: 50%;
     float: left;
 }
 
@@ -100,47 +85,32 @@ p.nums{
 p.ultnum{
     float: left;
     margin-right: 7px;
-    padding: 10px 8px;
-}
-
-p.prinum{
-    float: left;
-    margin-right: 7px;
-    padding: 10px 10px; 
+    padding: 10px 4px;
 }
 
 p.name{
     margin-left: 123px;
     padding: 12px;
     font-size: 16px;
-
 }
 
 div.ref1{
     background-color: #262626;
-    height: 22vh;
-    margin-bottom: 50px;
     border-top-left-radius: 6%;
     border-top-right-radius: 6%;
-    text-align: center;
-    border-bottom: black 3px solid;
 }
 
 div.ref2{
-    background-color: rgba(61, 61, 61, 0.5  );
+    background-color: rgba(61, 61, 61, 0.5);
     display: grid;
-    grid-template-rows: 90px 90px 90px 90px 90px;
     grid-template-columns: 95vw;
-    padding-bottom: 0px;
-    margin-bottom: 0px;    
+    grid-template-rows: 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px;
 }
 
 div.updated{
     text-align: center;
-    margin-bottom: 23px;
+    margin-bottom: 33px;
 }
-
-
 
 .blackhole{
     background-color: black;
@@ -173,24 +143,26 @@ p.nosfoot{
 }
 
 @media (min-width: 1023px){
-
-    header.yes{
+header.yes{
     width: 80vw;
     margin-left: 17vw;
 }
 
-img.fototop{
-    width: 15vw;
-    margin-top: 0px;
-    border-radius: 6%;
+div.comienzo{
+    margin-left: 17vw;
 }
 
-div.ref1{
-    height: 25vh;
+.ref1{
     width: 80vw;
-    margin-left: 17vw; 
-    padding-top:9vh; 
 }
+
+.ref2{
+    width: 80vw;
+}
+.ref3{
+    width: 80vw;
+}
+
 
 footer.icons{
     position: absolute;
@@ -232,34 +204,7 @@ p.nosfoot{
     display: none;
 }
 
-div.ref2{
-    background-color: rgba(61, 61, 61, 0.6  );
-    display: grid;
-    grid-template-rows: 90px 90px 90px 90px 90px;
-    grid-template-columns: 95vw;
-    margin-top: 19px;
-    width: 80vw;
-    margin-left: 17vw;
-}
-
-div.comienzo{
-    height: 720px;
-    grid-template-columns: 95vw;
-    grid-template-rows: 32vh 470px;
-    display: grid;
-    margin-top: 20px;
-    margin-left: 0.5vw;
-}
-
-.updated{
-    margin-top: 30px;
-}
-
 section.song{
-    width: 79vw;
-}
-
-section.ultsong{
     width: 79vw;
 }
 

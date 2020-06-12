@@ -105,4 +105,38 @@ window.addEventListener("load", function() {
          }
      )
 
+     // ACA VIENEN LOS GENRES //
+
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre")
+    .then(
+        function(respuesta) {
+            return respuesta.json();            
+        }
+    )
+    .then(
+        function(informacion) {
+            console.log (informacion)
+            let generosPopulares = informacion.data;
+
+            for (let index = 1; index <= 4; index++) {
+
+                const cadaGenre = generosPopulares[index];
+                console.log (cadaGenre)
+
+                let img = cadaGenre.picture;
+                let title = cadaGenre.name;
+
+                let htmlNuevoGenero =`
+                <section>
+                <img class="img" src="` + img + `" alt="">
+                <p class="nom"> ` + title + ` </p>
+                </section>
+                `  
+                document.querySelector(".nameG").innerHTML += htmlNuevoGenero
+            }
+            
+            
+        }
+    )
+
 })
