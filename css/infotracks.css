@@ -8,7 +8,21 @@ body.whole{
 .hyper{
     color:white;
     padding-left: 25px;
+    font-size: 5vw;
 }
+
+.hyperD{
+    display: none;
+}
+
+.blackhole{
+    background-color: black;
+    width: 95vw;
+    height: 50px;
+    position: absolute;
+    bottom: auto;
+}
+
 header.yes{
     background-color: #262626;
     margin-bottom: 50px;
@@ -19,9 +33,9 @@ header.yes{
 }
 
 .fa-chevron-left{
-    position: relative;
-    top: -38vh;
-    left: -38vw;
+    position: absolute;
+    top: 27vh;
+    left: 8vw;
 }
 
 h1.yes{
@@ -29,6 +43,7 @@ h1.yes{
     color: whitesmoke;
     text-align: center;
 }
+
 h3.yes{
     margin-left: 8px;
     color: whitesmoke;
@@ -81,23 +96,32 @@ a{
     color: whitesmoke;
 }
 
+.redes{
+    display: grid;
+    grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
+    margin-left: 6.5vw;
+}
+
 footer i.fas{
     color: lightgray;
     width: 19vw;
     margin-left: 5vw;
     margin-top: 18px;
 }
+
 p.nomic{
     display: none;
 }
 
 p.nosfoot{
-    display: none;
+   text-align: center;
+   margin-bottom: 50px;
+   margin-top: 30px;
 }
 
 @media (min-width: 1023px){
 
-    header.yes{
+header.yes{
     width: 80vw;
     margin-left: 17vw;
 }
@@ -157,4 +181,15 @@ div.comienzo{
     top: -48vh;
     left: -38vw;
 }
+
+.hyperD{
+    color:white;
+    padding-left: 25px;
+    display: block;
+}
+
+.hyper{
+    display: none;
+}
+
 }
