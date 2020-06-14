@@ -139,40 +139,6 @@ window.addEventListener("load", function() {
         }
     )
 
-     // ACA VIENEN LOS PODCASTS//
-
-     fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
-     .then(
-         function(respuesta) {
-             return respuesta.json();            
-         }
-     )
-     .then(
-         function(informacion) {
-             console.log (informacion)
-             let podcastsPopulares = informacion.podcasts.data;
- 
-             for (let index = 0; index <= 3; index++) {
- 
-                 const cadaPodcast = podcastsPopulares[index];
-                 console.log (cadaPodcast)
-                 
-                 let img = cadaPodcast.picture;
-                 let title = cadaPodcast.title;
- 
-                 let htmlNuevoPodcast =`
-                 <section>
-                 <img class="img" src="` + img + `" alt="">
-                 <p class="nom"> ` + title + ` </p>
-                 </section>
-                 `  
-                 document.querySelector(".nameP").innerHTML += htmlNuevoPodcast
-             }
-             
-             
-         }
-     )
-
      // ACA VIENEN LAS PLAYLISTS//
 
      fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
