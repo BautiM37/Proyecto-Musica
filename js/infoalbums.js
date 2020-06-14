@@ -18,21 +18,27 @@ window.addEventListener("load", function() {
             let img = resultado.cover;
             let date = resultado.release_date;
             let album = resultado.title;
-            let genero = resultado.genres.data.name;
-            let idGen = resultado.genres.data.id;
+            let genre = resultado.genres.data;
+            let idArtist = resultado.artist.id;
+            
+            for (let index = 0; index <= genre.length; index++){
+            
+            const gens = genre[index];    
+            let genero = gens.name;
+            let idGenre = gens.id;
 
             let nuevoHtml = `
             <img class="fototop" src="` + img + `" alt="">
             <h1 class="tit1">` + album + `</h1>
-            <a href="Info.artistas.html"><p class="subt1">Artista: ` + name + `</p></a>
+            <a href="Info.artistas.html?idArtist=` + idArtist + `"><p class="subt1">Artista: ` + name + `</p></a>
             <p>Fecha de publicación: ` + date + `</p>
-            <p>Género: <a href="infoGenre.html?idGenre= ` + idGen + `">` + genero + `</a></p>
+            <p>Género: <a href="infoGenre.html?idGenre= ` + idGenre + `">` + genero + `</a></p>
             <a href="Albums.html"><i class="fas fa-chevron-left"></i></a>
             `
 
             document.querySelector(".ref1").innerHTML = nuevoHtml
             
-        }
+        }}
     )
 
         // FETCH PARA CANCIONES DEL ALBUM //

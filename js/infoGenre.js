@@ -22,7 +22,7 @@ window.addEventListener("load", function() {
                 let nuevoHtmlGenre = `
                 <img class= "fototop" src="` + img + `" alt="">
                 <h2 class="tit1"> ` + name + ` </h2>
-                <p class="subt1">Las 10 canciones mas escuchadas de ` + name + `</p>
+                <p class="subt1">Los mejores artistas de ` + name + `</p>
                 <a href="Tracks.html"><i class="fas fa-chevron-left"></i></a>
                 `
     
@@ -47,7 +47,7 @@ window.addEventListener("load", function() {
 
                 const cadaGenre = resultado.data[index];
             
-                let name = cadaGenre.name;
+                let nom = cadaGenre.name;
                 let img = cadaGenre.picture;
                 let id = cadaGenre.id;
             
@@ -55,7 +55,7 @@ window.addEventListener("load", function() {
                     <section class="song">
                     <p class="nums"> - </p>
                     <a href="Info.artistas.html?idArtist=` + id + `"> <img class="tops" src= "`+ img + `" alt="">
-                    <p class="name">` + name + `</p></a>
+                    <p class="name">` + nom + `</p></a>
                     </section>
                 `
     
