@@ -18,26 +18,25 @@ window.addEventListener("load", function() {
             let name = resultado.creator.name;
             let img = resultado.picture;
             let nºTracks = resultado.nb_tracks;
-            let creacion = resultado.creation_date;
+            let desc = resultado.description;
             let fans = resultado.fans;
             
 
             let nuevoHtml = `
-            <div class="ref1">
             <img class="fototop" src="` + img + `" alt="">
             <h1 class="tit1">`+ titulo + `</h1>
-            <p> Nº Tracks: ` + nºTracks + ` segundos</p>
+            <p> Nº Tracks: ` + nºTracks + `</p>
             <p class="subt1">Creado por: ` + name + `</p>
-            <p>Fecha de creación: ` + creacion + `</p>
             <p>Fans: ` + fans + `</p>
-            </div>`
+            <p>Descripción: ` + desc + `</p>
+            <a href="playlistsHome.html"><i class="fas fa-chevron-left"></i></a>
+            `
 
-            document.querySelector(".comienzo").innerHTML = nuevoHtml
+            document.querySelector(".ref1").innerHTML = nuevoHtml
             
         }
     )
 
-    // Get the button, and when the user clicks on it, execute myFunction
 document.getElementById("myBtn").onclick = function() {myFunction()};
 
 /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
