@@ -75,6 +75,20 @@ p.linkshare{
     text-align: center;
 }
 
+div.ref2{
+    background-color: rgba(61, 61, 61, 0.5);
+    display: grid;
+    grid-template-columns: 95vw;
+}
+
+section.song{
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-right: 8px;
+    border-bottom: black 1px dotted;
+    max-height: 90px;
+}
+
 header.yes{
     background-color: #262626;
     margin-bottom: 50px;
@@ -82,6 +96,26 @@ header.yes{
     border-style: solid;
     border-width: 2px;
     border-radius: 6%;
+}
+
+p.nums{
+    float: left;
+    margin-right: 7px;
+    padding: 10px 8px;
+}
+
+p.name{
+    margin-left: 123px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+img.tops{
+    max-width: 15vw;
+    max-height: 90%;
+    border: black 1px solid;
+    border-radius: 20%;
+    float: left;
 }
 
 .fa-chevron-left{
@@ -170,15 +204,11 @@ p.nomic{
     display: none;
 }
 
-p.nosotros{
-   text-align: center;
-   margin-bottom: 50px;
-   margin-top: 30px;
-}
-
 p.nosfoot{
-    display: none;
-}
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+ }
 
 @media (min-width: 1023px){
 
@@ -228,11 +258,10 @@ p.nosfoot{
     bottom: 4vh;
     left: 2vw;
     font-size: 15px;
-    text-align: left;
 }
 
-p.nosotros{
-    display: none;
+section.song{
+    width: 79vw;
 }
 
 div.comienzo{
@@ -252,6 +281,10 @@ div.comienzo{
     color:white;
     padding-left: 25px;
     display: block;
+}
+
+.ref2{
+    width: 80vw;
 }
 
 .hyper{

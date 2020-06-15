@@ -84,7 +84,7 @@ section.song{
 }
 
 img.tops{
-    max-width: 13vw;
+    max-width: 15vw;
     max-height: 90%;
     border: black 1px solid;
     border-radius: 20%;
@@ -101,6 +101,11 @@ p.ultnum{
     float: left;
     margin-right: 7px;
     padding: 10px 8px;
+}
+.redes{
+    display: grid;
+    grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
+    margin-left: 6.5vw;
 }
 
 p.prinum{
@@ -157,11 +162,18 @@ p.nomic{
 }
 
 p.nosfoot{
-    display: none;
-}
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+ }
 .hyper{
     color:white;
     padding-left: 25px;
+    font-size: 5vw;
+}
+
+.hyperD{
+    display: none;
 }
 
 @media (min-width: 1023px){
@@ -253,6 +265,16 @@ section.song{
 }
 
 .blackhole{
+    display: none;
+}
+
+.hyperD{
+    color:white;
+    padding-left: 25px;
+    display: block;
+}
+
+.hyper{
     display: none;
 }
 

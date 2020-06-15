@@ -36,9 +36,21 @@ div.volver{
     text-align: center;
     border-radius: 6%;
 }
+
+.redes{
+    display: grid;
+    grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
+    margin-left: 6.5vw;
+}
+
 .hyper{
     color:white;
     padding-left: 25px;
+    font-size: 5vw;
+}
+
+.hyperD{
+    display: none;
 }
 a.return{
     color: whitesmoke;
@@ -165,8 +177,10 @@ p.nomic{
 }
 
 p.nosfoot{
-    display: none;
-}
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+ }
 
 @media (min-width: 1023px){
 header.yes{
@@ -236,6 +250,16 @@ section.song{
 
 section.ultsong{
     width: 79vw;
+}
+
+.hyperD{
+    color:white;
+    padding-left: 25px;
+    display: block;
+}
+
+.hyper{
+    display: none;
 }
 
 }

@@ -61,4 +61,39 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/playlist/" + c
 
 
         })
+
+            // FETCH PARA CANCIONES DE LA PLAYLIST //
+
+            fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/playlist/" + codigoPlaylist)
+            .then(
+                function(respuesta) {
+                    return respuesta.json();            
+                }
+            )
+            .then(
+                function(resultado) {
+                    console.log (resultado)
+                    const tracksAlbums = resultado.tracks.data;
+        
+                    for (let index = 0; index <= tracksAlbums.length; index++) {
+        
+                    const cadaAlbum = tracksAlbums[index];
+        
+                    let name = cadaAlbum.title;
+                    let id = cadaAlbum.id;
+                    let img = cadaAlbum.album.cover;
+        
+                    let nuevoHtmlTops = `
+                    <section class="song">
+                    <p class="nums"> - </p>
+                    <a href="Infotracks.html?idTrack=` + id + `"> <img class="tops" src= "`+ img + `" alt="">
+                    <p class="name">` + name + `</p></a>
+                    </section>
+                    `
+        
+                    document.querySelector(".ref2").innerHTML += nuevoHtmlTops
+        
+                    }
+        
+            })
 })

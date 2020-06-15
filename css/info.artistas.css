@@ -51,6 +51,11 @@ div.comienzo{
 .hyper{
     color:white;
     padding-left: 25px;
+    font-size: 5vw;
+}
+
+.hyperD{
+    display: none;
 }
 
 h1.tit1{
@@ -91,6 +96,11 @@ img.topsART{
     border: black 1px solid;
     border-radius: 50%;
     float: left;
+}
+.redes{
+    display: grid;
+    grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
+    margin-left: 6.5vw;
 }
 
 p.nums{
@@ -156,8 +166,10 @@ p.nomic{
 }
 
 p.nosfoot{
-    display: none;
-}
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+ }
 a{
     text-decoration: none;
     color: whitesmoke;
@@ -267,6 +279,15 @@ section.ultsong{
     left: -38vw;
 }
 
+.hyperD{
+    color:white;
+    padding-left: 25px;
+    display: block;
+}
+
+.hyper{
+    display: none;
+}
 
 
 }
