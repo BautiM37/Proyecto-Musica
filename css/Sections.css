@@ -66,6 +66,14 @@ div.comienzo{
     margin-left: 0.5vw;
 }
 
+div.error{
+    background-color: #262626;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    width: 90vw;
+    margin-left: -8px;
+}
+
 div.comienzoen{
     grid-template-columns: 95vw;
     display: grid;
@@ -102,6 +110,14 @@ section.songen{
 img.topsen{
     max-width: 80px;
     max-height: 90%;
+    border: black 1px solid;
+    border-radius: 20%;
+    float: left;
+}
+
+img.fotoError{
+    max-width: 80px;
+    max-height: 88px;
     border: black 1px solid;
     border-radius: 20%;
     float: left;
@@ -177,6 +193,12 @@ div.ref3{
 div.updated{
     text-align: center;
     margin-bottom: 33px;
+}
+
+div.updateden{
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 161px;
 }
 
 .blackhole{

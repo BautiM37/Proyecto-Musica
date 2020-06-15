@@ -15,7 +15,15 @@ window.addEventListener("load", function() {
             let resul = informacion.data;
 
             if (resul.length == 0) {
-                alert("No hay resultados");
+                let htmlEmpty = `
+                <section class="songen">
+                <p class="nums"> <a href="Index.html"><i class="fas fa-chevron-left"></i></a> </p>
+                <img class="fotoError" src="img/error.jpg" alt=""><p class="name">Lo sentimos, no encontramos lo que buscabas</p></a>
+                <div class="error"><h4>Consejo: si tocas la flecha que apunta a la izquierda, podrás probar suerte denuevo buscando lo que quieres! No te olvides de seguirnos en nuestras redes sociales!</h4></div>
+                </section>
+                `
+                
+                document.querySelector(".results").innerHTML += htmlEmpty
             }
 
             for (let index = 0; index < resul.length; index++) {
