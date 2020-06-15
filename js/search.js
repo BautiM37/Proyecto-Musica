@@ -26,9 +26,9 @@ window.addEventListener("load", function() {
                 let id = cadaResult.id;
 
                 let htmlBuscado = `
-                <section class="song">
+                <section class="songen">
                 <p class="nums"> - </p>
-                <a href="Infotracks.html?idTrack=` + id + `"> <img class="tops" src= "`+ img + `" alt="">
+                <a href="Infotracks.html?idTrack=` + id + `"> <img class="topsen" src= "`+ img + `" alt="">
                 <p class="name">` + title + `</p></a>
                 </section>
                 `
