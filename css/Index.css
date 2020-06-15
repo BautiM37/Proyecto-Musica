@@ -212,9 +212,7 @@ a{
 }
        
 .blackhole{
-        color:  grey;
-        width: 0px;
-        height: 0px;
+       display: none;
 }
 
 header.header{
@@ -223,12 +221,7 @@ header.header{
 }
 
 img.img{
-    max-height: 280px;
-    max-width: 300px;
-    width: 200px;
-    height: 200px;
-    margin-left: 3.25vw;
-    margin-right: 2.5vw;
+    width: 17vw;
     border-radius: 20%;
 }
 
@@ -246,7 +239,6 @@ div.todos{
     margin-left: 17vw;
     border: black 3px solid;
     margin-top: 20px;
-    height: 380px;
 }
 
 p.nomic{
@@ -316,12 +308,7 @@ div.namePl{
 }
 
 img.art{
-    max-height: 280px;
-    max-width: 300px;
-    width: 200px;
-    height: 200px;
-    margin-left: 3.25vw;
-    margin-right: 2.5vw;
+    width: 17vw;
     border-radius: 50%;
 }
 
