@@ -76,10 +76,14 @@ img.img{
 }
 
 p.nosfoot{
+    display: none;
+ }
+
+ .nosotros{
     text-align: center;
     margin-bottom: 50px;
-    margin-top: 30px;
- }
+    margin-top: 30px;  
+}
 
 div.names{
     grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
@@ -271,6 +275,10 @@ p.nosfoot{
     bottom: 4vh;
     left: 2vw;
     font-size: 15px;
+}
+
+p.nosotros{
+    display: none;
 }
 
 .tit{

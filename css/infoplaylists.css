@@ -205,10 +205,14 @@ p.nomic{
 }
 
 p.nosfoot{
+    display: none;
+ }
+
+ .nosotros{
     text-align: center;
     margin-bottom: 50px;
-    margin-top: 30px;
- }
+    margin-top: 30px;  
+}
 
 @media (min-width: 1023px){
 
@@ -258,6 +262,10 @@ p.nosfoot{
     bottom: 4vh;
     left: 2vw;
     font-size: 15px;
+}
+
+p.nosotros{
+    display: none;
 }
 
 section.song{
