@@ -145,6 +145,43 @@ div.nameG{
     border-radius: 20%;
 }
 
+.dropbtn {
+    background-color: black;
+    color: whitesmoke;
+    padding: 2px 16px 8px 16px;
+    border: none;
+    cursor: pointer;
+    width: 15vw;
+  }
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333333;
+    min-width: 160px;
+    overflow: auto;
+    border: 1px solid black;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: whitesmoke}
+  
+.show {
+    display:block;
+}
+
 img.art{
     max-height: 150px;
     max-width: 200px;
@@ -246,6 +283,8 @@ p.nomic{
     margin-left: 4vw;
     margin-right: 2vw;
     margin-top: -27px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
 .preview{
