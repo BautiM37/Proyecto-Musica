@@ -3,7 +3,7 @@ body.pro{
     background-image: url(../img/fonde.jpg);
     background-attachment: fixed;
     background-size: cover;
-    font-family: 'Montserrat', sans-serif
+    font-family: 'Montserrat', sans-serif;
 }
 a.links{
     text-decoration: none;
@@ -19,6 +19,24 @@ footer.icons{
     height: 40px; 
     background: black;
     margin-left: -8px;
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+}
+
+.buscateur{
+    background-color: black;
+    color: whitesmoke;
+    width: 76vw;
+    box-shadow: none;
+    border: none;
+    float: right;
+}
+
+.busque{
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: none;
+    border: none;
 }
 
 footer i.fas{
@@ -26,11 +44,12 @@ footer i.fas{
     width: 19vw;
     margin-left: 5vw;
     margin-top: 18px;
+    text-align: center;
 }
 
 header.header{
     background-color: #262626;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     border: black;
     border-style: solid;
     border-width: 2px;
@@ -159,6 +178,17 @@ div.nameG{
     display: inline-block;
     margin-bottom: 50px;
 }
+
+button{
+    background-color: black;
+    border: whitesmoke 1px solid;
+    box-shadow: none;
+    width: 97vw;
+    padding: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 5%;
+    height: 35px;
+}
   
 .dropdown-content {
     display: none;
@@ -224,6 +254,19 @@ p.nomic{
     display: none;
 }
 
+.searching{
+    color: whitesmoke;
+    float: left;
+    margin-left: 3px;
+}
+
+.fa-search{
+    color: whitesmoke;
+    float: left;
+    margin-top: 15px;
+    margin-left: 13px;
+}
+
 div.generalizada{
     display: none;
 }
@@ -241,6 +284,7 @@ footer.icons{
         width: 15vw;
         height: 100vh;
         position: fixed;
+        grid-template-columns: none;
 }
 
 a{
@@ -297,8 +341,9 @@ footer i.fas{
 }
 
 footer i.fa-home{
-    margin-top: 5vw;
+   margin-top: 5vw;
 }
+
 
 p.nosfoot{
     display: block;
@@ -345,6 +390,17 @@ div.namePl{
     font-size: 15px;
     padding-left: 0;
 }
+
+button{
+    margin-left: 17vw;
+    width: 80vw;
+    margin-bottom: 7px;
+}
+
+.buscateur{
+    width: 70vw;
+}
+
 
 img.art{
     width: 17vw;
