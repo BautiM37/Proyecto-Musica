@@ -89,6 +89,14 @@ section.song{
     max-height: 90px;
 }
 
+img.tops{
+    max-width: 80px;
+    max-height: 90%;
+    border: black 1px solid;
+    border-radius: 20%;
+    float: left;
+}
+
 header.yes{
     background-color: #262626;
     margin-bottom: 50px;
@@ -108,14 +116,6 @@ p.name{
     margin-left: 123px;
     padding: 12px;
     font-size: 16px;
-}
-
-img.tops{
-    max-width: 15vw;
-    max-height: 90%;
-    border: black 1px solid;
-    border-radius: 20%;
-    float: left;
 }
 
 .fa-chevron-left{
@@ -293,6 +293,7 @@ div.comienzo{
 
 .ref2{
     width: 80vw;
+    margin-left: 17vw;
 }
 
 .hyper{
