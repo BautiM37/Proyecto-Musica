@@ -89,6 +89,16 @@ footer.icons{
     height: 40px; 
     background: black;
     margin-left: -8px;
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+}
+
+footer i.fas{
+    color: lightgray;
+    width: 19vw;
+    margin-left: 5vw;
+    margin-top: 18px;
+    text-align: center;
 }
 
 a{
@@ -100,13 +110,6 @@ a{
     display: grid;
     grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
     margin-left: 6.5vw;
-}
-
-footer i.fas{
-    color: lightgray;
-    width: 19vw;
-    margin-left: 5vw;
-    margin-top: 18px;
 }
 
 p.nomic{
