@@ -13,7 +13,7 @@ window.addEventListener("load", function() {
             console.log (informacion)
             let tracksPopulares = informacion.tracks.data;
 
-            for (let index = 0; index <= 3; index++) {
+            for (let index = 0; index <= 9; index++) {
 
                 const cadaTrack = tracksPopulares[index];
                 console.log (cadaTrack)
@@ -30,6 +30,12 @@ window.addEventListener("load", function() {
                 `  
                 document.querySelector(".names").innerHTML += htmlNuevoTrack
             }
+            $(document).ready(function(){
+                $('.names').slick({
+                    autoplay: true,
+                    slidesToShow: 4
+                });
+              });
             
             
         }
@@ -48,7 +54,7 @@ window.addEventListener("load", function() {
             console.log (informacion)
             let albumsPopulares = informacion.albums.data;
 
-            for (let index = 0; index <= 3; index++) {
+            for (let index = 0; index <= 9; index++) {
 
                 const cadaAlbum = albumsPopulares[index];
                 console.log (cadaAlbum)
@@ -65,7 +71,12 @@ window.addEventListener("load", function() {
                 `  
                 document.querySelector(".nameAl").innerHTML += htmlNuevoAlbum
             }
-            
+            $(document).ready(function(){
+                $('.nameAl').slick({
+                    autoplay: true,
+                    slidesToShow: 4
+                });
+              });
             
         }
     )
@@ -83,7 +94,7 @@ window.addEventListener("load", function() {
              console.log (informacion)
              let artistsPopulares = informacion.artists.data;
  
-             for (let index = 0; index <= 3; index++) {
+             for (let index = 0; index <= 9; index++) {
  
                  const cadaArtist = artistsPopulares[index];
                  console.log (cadaArtist)
@@ -100,7 +111,12 @@ window.addEventListener("load", function() {
                  `  
                  document.querySelector(".nameAr").innerHTML += htmlNuevoArtist
              }
-             
+             $(document).ready(function(){
+                $('.nameAr').slick({
+                    autoplay: true,
+                    slidesToShow: 4
+                });
+              }); 
              
          }
      )
@@ -118,7 +134,7 @@ window.addEventListener("load", function() {
             console.log (informacion)
             let generosPopulares = informacion.data;
 
-            for (let index = 1; index <= 4; index++) {
+            for (let index = 1; index <= 10; index++) {
 
                 const cadaGenre = generosPopulares[index];
                 console.log (cadaGenre)
@@ -134,7 +150,12 @@ window.addEventListener("load", function() {
                 `  
                 document.querySelector(".nameG").innerHTML += htmlNuevoGenero
             }
-            
+            $(document).ready(function(){
+                $('.nameG').slick({
+                    autoplay: true,
+                    slidesToShow: 4
+                });
+              });
             
         }
     )
@@ -152,7 +173,7 @@ window.addEventListener("load", function() {
              console.log (informacion)
              let playlistsPopulares = informacion.playlists.data;
  
-             for (let index = 0; index <= 3; index++) {
+             for (let index = 0; index <= 9; index++) {
  
                  const cadaPlaylist = playlistsPopulares[index];
                  console.log (cadaPlaylist)
@@ -168,7 +189,12 @@ window.addEventListener("load", function() {
                  `  
                  document.querySelector(".namePl").innerHTML += htmlNuevoPlaylist
              }
-             
+             $(document).ready(function(){
+                $('.namePl').slick({
+                    autoplay: true,
+                    slidesToShow: 4
+                });
+              }); 
              
          }
      )

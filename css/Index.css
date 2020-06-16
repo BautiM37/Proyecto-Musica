@@ -1,3 +1,8 @@
+html, body{
+    margin: 0;
+    width: 100%;
+}
+
 body.pro{
     color: whitesmoke;
     background-image: url(../img/fonde.jpg);
@@ -41,6 +46,8 @@ footer.icons{
     color: whitesmoke;
     box-shadow: none;
     border: none;
+    width: 16vw;
+    margin-left: -15px;
 }
 
 footer i.fas{
@@ -109,8 +116,6 @@ p.nosfoot{
 }
 
 div.names{
-    grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
-    display: grid;
     background-color: #262626;
     text-align: center;
     font-size: 13px;
@@ -121,8 +126,6 @@ div.names{
 }
 
 div.nameAl{
-    grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
-    display: grid;
     background-color: #262626;
     text-align: center;
     font-size: 13px;
@@ -133,8 +136,6 @@ div.nameAl{
 }
 
 div.nameAr{
-    grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
-    display: grid;
     background-color: #262626;
     text-align: center;
     font-size: 13px;
@@ -145,8 +146,6 @@ div.nameAr{
 }
 
 div.namePl{
-    grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
-    display: grid;
     background-color: #262626;
     text-align: center;
     font-size: 13px;
@@ -157,8 +156,6 @@ div.namePl{
 }
 
 div.nameG{
-    grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
-    display: grid;
     background-color: #262626;
     text-align: center;
     font-size: 13px;
