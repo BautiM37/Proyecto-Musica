@@ -22,7 +22,12 @@ window.addEventListener("load", function() {
                 <div class="error"><h4>Consejo: si tocas la flecha que apunta a la izquierda, podrás probar suerte denuevo buscando lo que quieres! No te olvides de seguirnos en nuestras redes sociales!</h4></div>
                 </section>
                 `
-                
+                let desaparecer = `
+                <div class="desaparecer"></div>
+                `
+
+                document.querySelector(".updated").innerHTML = desaparecer
+                document.querySelector(".blackhole").innerHTML = desaparecer
                 document.querySelector(".results").innerHTML += htmlEmpty
             }
 
@@ -40,8 +45,12 @@ window.addEventListener("load", function() {
                 <p class="name">` + title + `</p></a>
                 </section>
                 `
-                
+                let htmlBuenon = `
+                <h4 class="tit1">` + loBuscado + `</h4>
+                `
+
                 document.querySelector(".results").innerHTML += htmlBuscado
+                document.querySelector(".tit1").innerHTML = htmlBuenon
             }
             
             

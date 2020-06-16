@@ -23,6 +23,11 @@ h1.yes{
     color: whitesmoke;
     text-align: center;
 }
+.desaparecer{
+    display: none;
+    background-color: none;
+}
+
 h3.yes{
     margin-left: 8px;
     color: whitesmoke;
@@ -81,7 +86,7 @@ div.comienzoen{
     margin-left: 0.5vw;
 }
 
-h1.tit1{
+.tit1{
     margin-left: 8px;
     margin-bottom: -3px;
     margin-top: 15px;
@@ -108,7 +113,7 @@ section.songen{
 }
 
 img.topsen{
-    max-width: 80px;
+    max-width: 70px;
     max-height: 90%;
     border: black 1px solid;
     border-radius: 20%;
@@ -215,6 +220,8 @@ footer.icons{
     height: 40px; 
     background: black;
     margin-left: -8px;
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
 }
 
 footer i.fas{
@@ -222,6 +229,7 @@ footer i.fas{
     width: 19vw;
     margin-left: 5vw;
     margin-top: 18px;
+    text-align: center;
 }
 p.nomic{
     display: none;
@@ -271,12 +279,15 @@ footer.icons{
     width: 15vw;
     height: 100vh;
     position: fixed;
+    grid-template-columns: none;
 }
 p.nomic{
     display: block;
     margin-left: 4vw;
     margin-right: 2vw;
     margin-top: -27px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 footer i.fas{
     margin-left: 2vw;
