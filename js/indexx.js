@@ -33,7 +33,8 @@ window.addEventListener("load", function() {
             $(document).ready(function(){
                 $('.names').slick({
                     autoplay: true,
-                    slidesToShow: 4
+                    slidesToShow: 4,
+                    arrows: false
                 });
               });
             
@@ -74,7 +75,8 @@ window.addEventListener("load", function() {
             $(document).ready(function(){
                 $('.nameAl').slick({
                     autoplay: true,
-                    slidesToShow: 4
+                    slidesToShow: 4,
+                    arrows: false
                 });
               });
             
@@ -114,7 +116,8 @@ window.addEventListener("load", function() {
              $(document).ready(function(){
                 $('.nameAr').slick({
                     autoplay: true,
-                    slidesToShow: 4
+                    slidesToShow: 4,
+                    arrows: false
                 });
               }); 
              
@@ -153,7 +156,8 @@ window.addEventListener("load", function() {
             $(document).ready(function(){
                 $('.nameG').slick({
                     autoplay: true,
-                    slidesToShow: 4
+                    slidesToShow: 4,
+                    arrows: false
                 });
               });
             
@@ -192,7 +196,8 @@ window.addEventListener("load", function() {
              $(document).ready(function(){
                 $('.namePl').slick({
                     autoplay: true,
-                    slidesToShow: 4
+                    slidesToShow: 4,
+                    arrows: false
                 });
               }); 
              

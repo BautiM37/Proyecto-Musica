@@ -65,6 +65,7 @@ header.header{
     border-style: solid;
     border-width: 2px;
     border-radius: 6%;
+    margin: 10px;
 }
 header h1.WeMusic{
     margin-left: 8px;
@@ -88,6 +89,7 @@ div.todos{
     border-radius: 6%;
     background-color: #262626;
     margin-bottom: 20px;
+    margin: 10px;
 }
 
 .redes{
@@ -185,10 +187,11 @@ button{
     border: whitesmoke 1px solid;
     box-shadow: none;
     width: 97vw;
-    padding: 0 auto;
+    margin: 10px;
     margin-bottom: 15px;
     border-radius: 5%;
     height: 35px;
+    margin-right: 10px;
 }
   
 .dropdown-content {
