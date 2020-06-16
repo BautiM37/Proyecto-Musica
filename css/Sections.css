@@ -150,6 +150,14 @@ img.topsART{
     float: left;
 }
 
+img.topsARTen{
+    max-width: 70px;
+    max-height: 90%;
+    border: black 1px solid;
+    border-radius: 50%;
+    float: left;
+}
+
 p.nums{
     float: left;
     margin-right: 7px;
@@ -182,7 +190,19 @@ div.ref2{
     grid-template-columns: 95vw;
 }
 
-div.results{
+div.resultsTra{
+    background-color: rgba(61, 61, 61, 0.5);
+    display: grid;
+    grid-template-columns: 95vw;
+}
+
+div.resultsAlb{
+    background-color: rgba(61, 61, 61, 0.5);
+    display: grid;
+    grid-template-columns: 95vw;
+}
+
+div.resultsArt{
     background-color: rgba(61, 61, 61, 0.5);
     display: grid;
     grid-template-columns: 95vw;
@@ -255,6 +275,10 @@ div.comienzo{
     margin-left: 17vw;
 }
 
+div.comienzoen{
+    margin-left: 17vw;
+}
+
 .ref1{
     width: 80vw;
 }
@@ -263,7 +287,7 @@ div.comienzo{
     width: 80vw;
 }
 
-.results{
+.resultsTra{
     width: 80vw;
 }
 
