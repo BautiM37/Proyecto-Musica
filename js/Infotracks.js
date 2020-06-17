@@ -24,7 +24,6 @@ window.addEventListener("load", function() {
             let idArt = resultado.artist.id;
 
             let nuevoHtml = `
-            <div class="ref1">
             <img class="fototop" src="` + img + `" alt="">
             <h1 class="tit1">`+ titulo + `</h1>
             <p> Duración: ` + long + ` segundos</p>
@@ -32,8 +31,7 @@ window.addEventListener("load", function() {
             <p>Album: <a href="infoalbum.html?idAlbum=` + idAlbum + `">` + album + `</a></p>
             <p>Fecha de publicación: ` + date + `</p>
             <a href="Playlist.html"><p>Agregar a Mi Playlist</p></a>
-            <a href="Tracks.html"><i class="fas fa-chevron-left"></i></a>
-            </div>`
+            <a href="Tracks.html"><i class="fas fa-chevron-left"></i></a>`
 
             document.querySelector(".ref1").innerHTML = nuevoHtml
             

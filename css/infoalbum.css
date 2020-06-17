@@ -251,13 +251,8 @@ img.fototop{
 }
 
 div.ref1{
-    background-color: #262626;
     width: 80vw;
-    border-top-left-radius: 6%;
-    border-top-right-radius: 6%;
-    text-align: center;
     margin-left: 17vw;  
-    border-bottom: black 5px solid;
 }
 
 footer.icons{
@@ -303,13 +298,6 @@ p.nosfoot{
 
 p.nosotros{
     display: none;
-}
-
-div.comienzo{
-    grid-template-columns: 95vw;
-    display: grid;
-    margin-top: 20px;
-    margin-left: 0.5vw;
 }
 
 .updated{

@@ -241,17 +241,10 @@ p.nosotros{
     display: none;
 }
 
-div.comienzo{
-    grid-template-columns: 95vw;
-    display: grid;
-    margin-top: 20px;
-    margin-left: 0.5vw;
-}
-
 .fa-chevron-left{
-    position: relative;
-    top: -48vh;
-    left: -38vw;
+    position: absolute;
+    top: 27vh;
+    left: 20vw;
 }
 
 .hyper{

@@ -190,14 +190,8 @@ img.fototop{
 }
 
 div.ref1{
-    background-color: #262626;
-    height: 45vh;
     width: 80vw;
-    border-top-left-radius: 6%;
-    border-top-right-radius: 6%;
-    text-align: center;
     margin-left: 17vw;  
-    border-bottom: black 5px solid;
 }
 
 footer.icons{
@@ -276,9 +270,9 @@ section.song{
 }
 
 .fa-chevron-left{
-    position: relative;
-    top: -40vh;
-    left: -38vw;
+    position: absolute;
+    top: 27vh;
+    left: 20vw;
 }
 
 .hyper{
