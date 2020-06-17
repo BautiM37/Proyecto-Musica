@@ -1,51 +1,66 @@
 window.addEventListener("load", function() {
 
-    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre")
-    .then(
-        function(respuesta) {
-            return respuesta.json();            
-        }
-    )
-    .then(
-        function(informacion) {
-            console.log (informacion)
-            const cadaGenre = informacion.data[index];
-            
-            let name = cadaGenre.name;
-            let img = cadaGenre.picture;
-        
-            let nuevoHtml = `
-            <img class="fototop" src="` + img + `" alt="">
-            <h2 class="tit1">` + name + `</h2>
-            `
-
-            document.querySelector(".ref1").innerHTML += nuevoHtml
-            
-        }
-    )}
-    // Esto fue para poner la foto del genero y el nombre // 
+        let queryString = new URLSearchParams(location.search);
     
-    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre")
-    .then(
-        function(respuesta) {
-            return respuesta.json();            
-        }
-    )
-    .then(
-        function(informacion) {
-            console.log (informacion)
-            const cadaGenre = informacion.data[index];
+        let codigoGenre = queryString.get("idGenre");
+    
+        // FETCH PARA GENRE //
+    
+        fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/" + codigoGenre)
+        .then(
+            function(respuesta) {
+                return respuesta.json();            
+            }
+        )
+        .then(
+            function(resultado) {
+                console.log (resultado)
+    
+                let name = resultado.name;
+                let img = resultado.picture; 
             
-            let name = cadaGenre.name;
-            let img = cadaGenre.picture;
-        
-            let nuevoHtml = `
-            <img class="fototop" src="` + img + `" alt="">
-            <h2 class="tit1">` + name + `</h2>
-            `
+                let nuevoHtmlGenre = `
+                <img class= "fototop" src="` + img + `" alt="">
+                <h2 class="tit1"> ` + name + ` </h2>
+                <p class="subt1">Los mejores artistas de ` + name + `</p>
+                <a href="Tracks.html"><i class="fas fa-chevron-left"></i></a>
+                `
+    
+                document.querySelector(".ref1").innerHTML = nuevoHtmlGenre
+                
+            }
+        )
+    
+        // FETCH PARA ARTISTS DEL GENRE //
+    
+        fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/" + codigoGenre + "/artists" )
+        .then(
+            function(respuesta) {
+                return respuesta.json();            
+            }
+        )
+        .then(
+            function(resultado) {
+                console.log (resultado)
 
-            document.querySelector(".ref1").innerHTML += nuevoHtml
+                for (let index = 0; index <= resultado.data.length; index++) {
+
+                const cadaGenre = resultado.data[index];
             
-        }
-    )}
-    // Esto fue para poner la foto del genero y el nombre //
+                let nom = cadaGenre.name;
+                let img = cadaGenre.picture;
+                let id = cadaGenre.id;
+            
+                let nuevoHtmlTops = `
+                    <section class="song">
+                    <p class="nums"> - </p>
+                    <a href="Info.artistas.html?idArtist=` + id + `"> <img class="tops" src= "`+ img + `" alt="">
+                    <p class="name">` + nom + `</p></a>
+                    </section>
+                `
+    
+                document.querySelector(".ref").innerHTML += nuevoHtmlTops
+                }
+            }
+        )
+    })

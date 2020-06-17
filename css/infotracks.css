@@ -8,7 +8,73 @@ body.whole{
 .hyper{
     color:white;
     padding-left: 25px;
+    font-size: 5vw;
 }
+
+.hyperD{
+    display: none;
+}
+
+ul{
+    display: none;
+}
+
+.dropbtn {
+    background-color: #262626;
+    color: whitesmoke;
+    padding: 2px 16px 8px 16px;
+    border: none;
+    cursor: pointer;
+    width: 95vw;
+  }
+  
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #333333;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333333;
+    min-width: 160px;
+    overflow: auto;
+    border: 1px solid black;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: whitesmoke}
+  
+.show {
+    display:block;
+}
+
+p.linkshare{
+    color: whitesmoke;
+    font-size: 13px;
+    width: 95vw;
+    text-align: center;
+}
+
+.blackhole{
+    background-color: black;
+    width: 95vw;
+    height: 50px;
+    position: absolute;
+    bottom: auto;
+}
+
 header.yes{
     background-color: #262626;
     margin-bottom: 50px;
@@ -19,9 +85,9 @@ header.yes{
 }
 
 .fa-chevron-left{
-    position: relative;
-    top: -38vh;
-    left: -38vw;
+    position: absolute;
+    top: 27vh;
+    left: 8vw;
 }
 
 h1.yes{
@@ -29,6 +95,7 @@ h1.yes{
     color: whitesmoke;
     text-align: center;
 }
+
 h3.yes{
     margin-left: 8px;
     color: whitesmoke;
@@ -61,8 +128,8 @@ p.subt1{
 
 div.ref1{
     background-color: #262626;
-    margin-bottom: 50px;
-    border-radius: 6%;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
     text-align: center
 }
 
@@ -74,11 +141,8 @@ footer.icons{
     height: 40px; 
     background: black;
     margin-left: -8px;
-}
-
-a{
-    text-decoration: none;
-    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
 }
 
 footer i.fas{
@@ -86,18 +150,41 @@ footer i.fas{
     width: 19vw;
     margin-left: 5vw;
     margin-top: 18px;
+    text-align: center;
 }
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.redes{
+    display: grid;
+    grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
+    margin-left: 6.5vw;
+}
+
 p.nomic{
     display: none;
 }
 
 p.nosfoot{
     display: none;
+ }
+
+ .nosotros{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;  
+}
+span{
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 16px;
 }
 
 @media (min-width: 1023px){
 
-    header.yes{
+header.yes{
     width: 80vw;
     margin-left: 17vw;
 }
@@ -119,6 +206,8 @@ footer.icons{
     width: 15vw;
     height: 100vh;
     position: fixed;
+    grid-template-columns: none;
+    display: block;
 }
 
 p.nomic{
@@ -126,11 +215,14 @@ p.nomic{
     margin-left: 4vw;
     margin-right: 2vw;
     margin-top: -27px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
 footer i.fas{
     margin-left: 2vw;
     margin-bottom: 10px;
+    width: auto;
 }
 
 footer i.fa-home{
@@ -145,16 +237,58 @@ p.nosfoot{
     font-size: 15px;
 }
 
-div.comienzo{
-    grid-template-columns: 95vw;
-    display: grid;
-    margin-top: 20px;
-    margin-left: 0.5vw;
+p.nosotros{
+    display: none;
 }
 
 .fa-chevron-left{
-    position: relative;
-    top: -48vh;
-    left: -38vw;
+    position: absolute;
+    top: 27vh;
+    left: 20vw;
+}
+
+.hyper{
+    display: none;
+}
+
+.hyperD{
+    display: block;
+    color:white;
+    padding-left: 0px;
+    margin-left: -25px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+  
+  ul li {
+    width: 20px;
+    margin: 0 10px;
+  }
+  
+  ul li a {
+    width: 100%;
+  }
+
+  .dropbtn{
+    width: 80vw;
+    margin-left: 17vw; 
+}
+
+.blackhole{
+    display: none;
+}
+
+.dropdown-content{
+    width: 80vw;
+    margin-left: 17vw;
+    text-align: justify;
+}
+
+p.linkshare{
+    width: 80vw;
 }
 }

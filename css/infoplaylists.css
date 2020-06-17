@@ -5,86 +5,30 @@ body.whole{
     background-size: cover;
     font-family: 'Montserrat', sans-serif !important;
 }
-
-header.yes{
-    background-color: #262626;
-    margin-bottom: 50px;
-    border: black;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 6%;
+.hyper{
+    color:white;
+    padding-left: 25px;
+    font-size: 5vw;
 }
 
-h1.yes{
-    margin-left: 8px;
-    color: whitesmoke;
-    text-align: center;
+.hyperD{
+    display: none;
 }
 
 ul{
     display: none;
 }
 
-h3.yes{
-    margin-left: 8px;
-    color: whitesmoke;
-    text-align: center;
-}
-
-.fa-chevron-left{
-    position: absolute;
-    top: 27vh;
-    left: 8vw;
-}
-
-img.fototop{
-    width: 30vw;
-    border-radius: 20%;
-    padding-top: 1vh;
-}
-
-h3.canal{
-    text-align: left;
-    margin-left: 2vw;
-    font-size: 15px;
-    margin-top: 26px;
-}
-
-a.return{
-    color: whitesmoke;
-    text-decoration: none;
-}
-
-div.comienzo{
-    grid-template-columns: 95vw;
-    display: grid;
-    margin-top: 20px;
-    margin-left: 0.5vw;
-}
-
 .blackhole{
     background-color: black;
     width: 95vw;
     height: 50px;
+    position: absolute;
+    bottom: auto;
 }
 
-h1.tit1{
-    margin-left: 8px;
-    margin-bottom: -3px;
-    margin-top: 0px;
-    color: whitesmoke;
-}
-
-p.subt1{
-    margin-left: 10px;
-}
-
-section.song{
-    margin-left: 8px;
-    margin-top: 10px;
-    margin-right: 8px;
-    border-bottom: black 1px dotted;
-    max-height: 90px;
+.fa-share-square{
+    margin-bottom: 10px;
 }
 
 .dropbtn {
@@ -135,9 +79,18 @@ p.linkshare{
     text-align: center;
 }
 
-span{
-    font-family: 'Montserrat', sans-serif !important;
-    font-size: 16px;
+div.ref2{
+    background-color: rgba(61, 61, 61, 0.5);
+    display: grid;
+    grid-template-columns: 95vw;
+}
+
+section.song{
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-right: 8px;
+    border-bottom: black 1px dotted;
+    max-height: 90px;
 }
 
 img.tops{
@@ -148,27 +101,19 @@ img.tops{
     float: left;
 }
 
+header.yes{
+    background-color: #262626;
+    margin-bottom: 50px;
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 6%;
+}
+
 p.nums{
     float: left;
     margin-right: 7px;
     padding: 10px 8px;
-}
-
-p.ultnum{
-    float: left;
-    margin-right: 7px;
-    padding: 10px 8px;
-}
-.redes{
-    display: grid;
-    grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
-    margin-left: 6.5vw;
-}
-
-p.prinum{
-    float: left;
-    margin-right: 7px;
-    padding: 10px 10px; 
 }
 
 p.name{
@@ -177,17 +122,58 @@ p.name{
     font-size: 16px;
 }
 
+.fa-chevron-left{
+    position: absolute;
+    top: 27vh;
+    left: 8vw;
+}
+
+h1.yes{
+    margin-left: 8px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+h3.yes{
+    margin-left: 8px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+img.fototop{
+    width: 30vw;
+    border-radius: 20%;
+    margin-top: 10px;
+}
+
+div.comienzo{
+    grid-template-columns: 95vw;
+    display: grid;
+    margin-top: 20px;
+    margin-left: 0.5vw;
+}
+
+span{
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 16px;
+}
+
+h1.tit1{
+    margin-left: 8px;
+    margin-bottom: -3px;
+    margin-top: 0px;
+    color: whitesmoke;
+}
+
+p.subt1{
+    margin-left: 10px;
+}
+
 div.ref1{
     background-color: #262626;
     border-top-left-radius: 6%;
     border-top-right-radius: 6%;
     text-align: center
-}
-
-div.ref2{
-    background-color: rgba(61, 61, 61, 0.5);
-    display: grid;
-    grid-template-columns: 95vw;
 }
 
 footer.icons{
@@ -215,6 +201,12 @@ a{
     color: whitesmoke;
 }
 
+.redes{
+    display: grid;
+    grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
+    margin-left: 6.5vw;
+}
+
 p.nomic{
     display: none;
 }
@@ -227,15 +219,6 @@ p.nosfoot{
     text-align: center;
     margin-bottom: 50px;
     margin-top: 30px;  
-}
-.hyper{
-    color:white;
-    padding-left: 25px;
-    font-size: 5vw;
-}
-
-.hyperD{
-    display: none;
 }
 
 @media (min-width: 1023px){
@@ -265,6 +248,7 @@ footer.icons{
     grid-template-columns: none;
     display: block;
 }
+
 p.nomic{
     display: block;
     margin-left: 4vw;
@@ -273,6 +257,7 @@ p.nomic{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
+
 footer i.fas{
     margin-left: 2vw;
     margin-bottom: 10px;
@@ -281,11 +266,6 @@ footer i.fas{
 
 footer i.fa-home{
     margin-top: 5vw;
-}
-
-a{
-    text-decoration: none;
-    color: whitesmoke;
 }
 
 p.nosfoot{
@@ -300,47 +280,21 @@ p.nosotros{
     display: none;
 }
 
-.updated{
-    margin-top: 110px;
-}
-
-.canal{
-    text-align: left;
-    margin-left: 10px;
-}
-
 section.song{
     width: 79vw;
 }
 
+div.comienzo{
+    grid-template-columns: 95vw;
+    display: grid;
+    margin-top: 20px;
+    margin-left: 0.5vw;
+}
+
 .fa-chevron-left{
-    position: absolute;
-    top: 27vh;
-    left: 20vw;
-}
-
-.ref2{
-    width: 80vw;
-    margin-left: 17vw;
-}
-
-.dropbtn{
-    width: 80vw;
-    margin-left: 17vw; 
-}
-
-.blackhole{
-    display: none;
-}
-
-.dropdown-content{
-    width: 80vw;
-    margin-left: 17vw;
-    text-align: justify;
-}
-
-p.linkshare{
-    width: 80vw;
+    position: fixed;
+    top: 28vh;
+    left: 22vw;
 }
 
 .hyper{
@@ -368,5 +322,29 @@ ul {
   ul li a {
     width: 100%;
   }
+
+.ref2{
+    width: 80vw;
+    margin-left: 17vw;
+}
+
+.dropbtn{
+    width: 80vw;
+    margin-left: 17vw; 
+}
+
+.blackhole{
+    display: none;
+}
+
+.dropdown-content{
+    width: 80vw;
+    margin-left: 17vw;
+    text-align: justify;
+}
+
+p.linkshare{
+    width: 80vw;
+}
 
 }

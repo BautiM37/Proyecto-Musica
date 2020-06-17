@@ -18,22 +18,53 @@ window.addEventListener("load", function() {
             let img = resultado.cover;
             let date = resultado.release_date;
             let album = resultado.title;
-            let genero = resultado.genres.data.name;
-            let idGen = resultado.genres.data.id;
+            let genre = resultado.genres.data;
+            let idArtist = resultado.artist.id;
+            
+            for (let index = 0; index <= genre.length; index++){
+            
+            const gens = genre[index];    
+            let genero = gens.name;
+            let idGenre = gens.id;
 
             let nuevoHtml = `
             <img class="fototop" src="` + img + `" alt="">
             <h1 class="tit1">` + album + `</h1>
-            <a href="Info.artistas.html"><p class="subt1">Artista: ` + name + `</p></a>
+            <a href="Info.artistas.html?idArtist=` + idArtist + `"><p class="subt1">Artista: ` + name + `</p></a>
             <p>Fecha de publicación: ` + date + `</p>
-            <p>Género: <a href="infoGenre.html?idGenre= ` + idGen + `">` + genero + `</a></p>
+            <p>Género: <a href="infoGenre.html?idGenre= ` + idGenre + `">` + genero + `</a></p>
             <a href="Albums.html"><i class="fas fa-chevron-left"></i></a>
             `
 
             document.querySelector(".ref1").innerHTML = nuevoHtml
             
+        }}
+    )
+
+    document.getElementById("myBtn").onclick = function() {myFunction()};
+
+/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/" + codigoAlbum)
+    .then(
+        function(respuesta) {
+            return respuesta.json();            
         }
     )
+    .then(
+        function(resultado) {
+            console.log (resultado)
+            let link = resultado.share;
+
+        let nuevoHtmlLink = `<p class= linkshare>` + link + `</p>`
+
+        document.querySelector(".dropdown-content").innerHTML += nuevoHtmlLink
+
+
+        })
 
         // FETCH PARA CANCIONES DEL ALBUM //
 

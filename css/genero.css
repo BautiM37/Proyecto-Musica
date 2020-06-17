@@ -8,6 +8,21 @@ body.whole{
 .hyper{
     color:white;
     padding-left: 25px;
+    font-size: 5vw;
+}
+
+.hyperD{
+    display: none;
+}
+
+ul{
+    display: none;
+}
+
+.redes{
+    display: grid;
+    grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
+    margin-left: 6.5vw;
 }
 
 a{
@@ -130,6 +145,8 @@ footer.icons{
     height: 40px; 
     background: black;
     margin-left: -8px;
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
 }
 
 footer i.fas{
@@ -137,6 +154,7 @@ footer i.fas{
     width: 19vw;
     margin-left: 5vw;
     margin-top: 18px;
+    text-align: center;
 }
 p.nomic{
     display: none;
@@ -144,6 +162,12 @@ p.nomic{
 
 p.nosfoot{
     display: none;
+ }
+
+ .nosotros{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;  
 }
 
 @media (min-width: 1023px){
@@ -175,16 +199,21 @@ footer.icons{
     width: 15vw;
     height: 100vh;
     position: fixed;
+    grid-template-columns: none;
+    display: block;
 }
 p.nomic{
     display: block;
     margin-left: 4vw;
     margin-right: 2vw;
     margin-top: -27px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 footer i.fas{
     margin-left: 2vw;
     margin-bottom: 10px;
+    width: auto;
 }
 
 footer i.fa-home{
@@ -204,6 +233,10 @@ p.nosfoot{
     font-size: 15px;
 }
 
+p.nosotros{
+    display: none;
+}
+
 .blackhole{
     display: none;
 }
@@ -211,5 +244,31 @@ p.nosfoot{
 section.song{
     width: 79vw;
 }
+
+.hyper{
+    display: none;
+}
+
+.hyperD{
+    display: block;
+    color:white;
+    padding-left: 0px;
+    margin-left: -25px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+  
+  ul li {
+    width: 20px;
+    margin: 0 10px;
+  }
+  
+  ul li a {
+    width: 100%;
+  }
 
 }
