@@ -135,6 +135,10 @@ section.ultsong{
     margin-right: 8px;
 }
 
+ul{
+    display: none;
+}
+
 img.tops{
     max-width: 100vw;
     max-height: 90%;
@@ -304,6 +308,7 @@ footer.icons{
     height: 100vh;
     position: fixed;
     grid-template-columns: none;
+    display: block;
 }
 p.nomic{
     display: block;
@@ -316,6 +321,7 @@ p.nomic{
 footer i.fas{
     margin-left: 2vw;
     margin-bottom: 10px;
+    width: auto;
 }
 
 footer i.fa-home{
@@ -352,13 +358,29 @@ section.ultsong{
 }
 
 .hyperD{
-    color:white;
-    padding-left: 25px;
     display: block;
+    color:white;
+    padding-left: 0px;
+    margin-left: -25px;
+    margin-top: 10px;
 }
 
 .hyper{
     display: none;
 }
+
+ul {
+    list-style: none;
+    display: flex;
+}
+  
+  ul li {
+    width: 20px;
+    margin: 0 10px;
+  }
+  
+  ul li a {
+    width: 100%;
+  }
 
 }

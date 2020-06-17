@@ -15,6 +15,10 @@ body.whole{
     display: none;
 }
 
+ul{
+    display: none;
+}
+
 .blackhole{
     background-color: black;
     width: 95vw;
@@ -241,6 +245,8 @@ footer.icons{
     width: 15vw;
     height: 100vh;
     position: fixed;
+    grid-template-columns: none;
+    display: block;
 }
 
 p.nomic{
@@ -248,11 +254,14 @@ p.nomic{
     margin-left: 4vw;
     margin-right: 2vw;
     margin-top: -27px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
 footer i.fas{
     margin-left: 2vw;
     margin-bottom: 10px;
+    width: auto;
 }
 
 footer i.fa-home{
@@ -288,19 +297,35 @@ div.comienzo{
     left: 22vw;
 }
 
-.hyperD{
-    color:white;
-    padding-left: 25px;
-    display: block;
+.hyper{
+    display: none;
 }
+
+.hyperD{
+    display: block;
+    color:white;
+    padding-left: 0px;
+    margin-left: -25px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+  
+  ul li {
+    width: 20px;
+    margin: 0 10px;
+  }
+  
+  ul li a {
+    width: 100%;
+  }
 
 .ref2{
     width: 80vw;
     margin-left: 17vw;
-}
-
-.hyper{
-    display: none;
 }
 
 .dropbtn{
