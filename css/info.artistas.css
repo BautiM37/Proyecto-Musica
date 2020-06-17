@@ -120,12 +120,64 @@ p.name{
     font-size: 16px;
 }
 
+.dropbtn {
+    background-color: #262626;
+    color: whitesmoke;
+    padding: 2px 16px 8px 16px;
+    border: none;
+    cursor: pointer;
+    width: 95vw;
+  }
+  
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #333333;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333333;
+    min-width: 160px;
+    overflow: auto;
+    border: 1px solid black;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: whitesmoke}
+  
+.show {
+    display:block;
+}
+
+p.linkshare{
+    color: whitesmoke;
+    font-size: 13px;
+    width: 95vw;
+    text-align: center;
+}
+
+span{
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 16px;
+}
+
 div.ref1{
     background-color: #262626;
     border-top-left-radius: 6%;
     border-top-right-radius: 6%;
-    text-align: center;
-    border-bottom: black 3px solid;
+    text-align: center
 }
 
 div.ref2{
@@ -257,8 +309,23 @@ p.nosotros{
     display: none;
 }
 
+.dropbtn{
+    width: 80vw;
+    margin-left: 17vw; 
+}
+
 .blackhole{
     display: none;
+}
+
+.dropdown-content{
+    width: 80vw;
+    margin-left: 17vw;
+    text-align: justify;
+}
+
+p.linkshare{
+    width: 80vw;
 }
 
 div.ref2{

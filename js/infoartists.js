@@ -33,6 +33,31 @@ window.addEventListener("load", function() {
         }
     )
 
+    document.getElementById("myBtn").onclick = function() {myFunction()};
+
+    /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + codigoArtists)
+        .then(
+            function(respuesta) {
+                return respuesta.json();            
+            }
+        )
+        .then(
+            function(resultado) {
+                console.log (resultado)
+                let link = resultado.share;
+    
+            let nuevoHtmlLink = `<p class= linkshare>` + link + `</p>`
+    
+            document.querySelector(".dropdown-content").innerHTML += nuevoHtmlLink
+    
+    
+            })
+
     // FETCH PARA TOP 5 CANCIONES DEL ARTISTA //
 
     fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + codigoArtists + "/top?limit=50" )
