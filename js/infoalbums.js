@@ -29,12 +29,14 @@ window.addEventListener("load", function() {
 
             let nuevoHtml = `
             <img class="fototop" src="` + img + `" alt="">
+            <div class="textosuperior">
             <h1 class="tit1">` + album + `</h1>
             <a href="Info.artistas.html?idArtist=` + idArtist + `"><p class="subt1">Artista: ` + name + `</p></a>
-            <p>Fecha de publicación: ` + date + `</p>
-            <p>Género: <a href="infoGenre.html?idGenre= ` + idGenre + `">` + genero + `</a></p>
+            <p class="subt1">Fecha de publicación: ` + date + `</p>
+            <p class="subt1">Género: <a href="infoGenre.html?idGenre= ` + idGenre + `">` + genero + `</a></p>
             <a href="Albums.html"><i class="fas fa-chevron-left"></i></a>
-            `
+            
+            </div>`
 
             document.querySelector(".ref1").innerHTML = nuevoHtml
             

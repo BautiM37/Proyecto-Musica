@@ -238,7 +238,24 @@ a{
     text-decoration: none;
     color: whitesmoke;
 }
+@media (min-width: 700px){
+.ref1 {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
+}
+.textosuperior {
+    text-align: left;
+    padding-top: 15px;
+}
+
+
+
+
+
+
+}
 @media (min-width: 1023px){
 
 header.yes{
