@@ -29,13 +29,13 @@ footer.icons{
     background: black;
     margin-left: -8px;
     display: grid;
-    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-columns: 33.3vw 33.3vw 33.3vw;
 }
 
 .buscateur{
     background-color: black;
     color: whitesmoke;
-    width: 76vw;
+    width: 75vw;
     box-shadow: none;
     border: none;
     float: right;
@@ -47,7 +47,9 @@ footer.icons{
     box-shadow: none;
     border: none;
     width: 16vw;
-    margin-left: -15px;
+    margin-left: -6px;
+    padding: 0px;
+    float: left;
 }
 
 footer i.fas{
@@ -65,7 +67,10 @@ header.header{
     border-style: solid;
     border-width: 2px;
     border-radius: 6%;
-    margin: 10px;
+    width: 95vw;
+    position: relative;
+    top: 10px;
+    left: 10px;
 }
 header h1.WeMusic{
     margin-left: 8px;
@@ -88,8 +93,11 @@ div.todos{
     border-width: 1px;
     border-radius: 6%;
     background-color: #262626;
-    margin-bottom: 20px;
-    margin: 10px;
+    margin-bottom: 30px;
+    width: 95vw;
+    position: relative;
+    top: 10px;
+    left: 10px;
 }
 
 .redes{
@@ -105,6 +113,7 @@ img.img{
     height: auto;
     border-radius: 20%;
     padding-top: 0.5vh;
+    margin-left: 2.5vw;
 }
 
 p.nosfoot{
@@ -186,12 +195,13 @@ button{
     background-color: black;
     border: whitesmoke 1px solid;
     box-shadow: none;
-    width: 97vw;
-    margin: 10px;
+    width: 95vw;
     margin-bottom: 15px;
     border-radius: 5%;
     height: 35px;
-    margin-right: 10px;
+    position: relative;
+    left: 10px;
+    top: 10px;
 }
   
 .dropdown-content {
@@ -223,6 +233,7 @@ img.art{
     height: auto;
     border-radius: 50%;
     padding-top: 0.5vh;
+    margin-left: 18px;
 }
 
 p.nom{
@@ -404,7 +415,7 @@ button{
 }
 
 .buscateur{
-    width: 70vw;
+    width: 69vw;
 }
 
 img.art{
@@ -437,4 +448,9 @@ ul {
   ul li a {
     width: 100%;
   }
+
+.busque{
+    width: 10vw;
+
+}
 }
