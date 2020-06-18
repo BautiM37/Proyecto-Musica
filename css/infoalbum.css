@@ -242,18 +242,15 @@ p.nosfoot{
         
         display: grid;
         grid-template-columns: 1fr 1fr;
-    
+    padding-left: 30px;
     }
     .textosuperior {
         text-align: left;
-        padding-top: 15px;
+        padding-left: 50px;
     }
-    
-    
-    
-    
-    
-    
+.fototop {
+    padding-left: 30px;
+}
     }
 @media (min-width: 1023px){
 
