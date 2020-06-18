@@ -108,6 +108,22 @@ img.topsART{
     margin-left: 6.5vw;
 }
 
+section.songen{
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-right: 8px;
+    border-bottom: black 1px dotted;
+    max-height: 90px; 
+}
+
+img.fotoError{
+    max-width: 80px;
+    max-height: 88px;
+    border: black 1px solid;
+    border-radius: 20%;
+    float: left;
+}
+
 p.nums{
     float: left;
     margin-right: 7px;

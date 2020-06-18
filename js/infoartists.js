@@ -29,8 +29,8 @@ window.addEventListener("load", function() {
             `
 
             document.querySelector(".ref1").innerHTML = nuevoHtml
-            
-        }
+
+            }  
     )
 
     document.getElementById("myBtn").onclick = function() {myFunction()};
@@ -70,6 +70,18 @@ window.addEventListener("load", function() {
         function(resultado) {
             console.log (resultado)
 
+            if (resultado.data == 0) {
+
+                let htmlEmpty = `
+                <section class="songen">
+                <p class="nums"> <a href="Index.html"><i class="fas fa-chevron-left"></i></a> </p>
+                <img class="fotoError" src="img/error.jpg" alt=""><p class="name">Lo sentimos, no encontramos tracks</p></a>
+                </section>
+                `
+                document.querySelector(".ref2").innerHTML += htmlEmpty
+
+            } else {
+
             for (let index = 0; index <= 4; index++) {
 
             const cadaTop = resultado.data[index];
@@ -90,6 +102,6 @@ window.addEventListener("load", function() {
 
             document.querySelector(".ref2").innerHTML += nuevoHtmlTops
             }
-        }
+        }}
     )
 })
