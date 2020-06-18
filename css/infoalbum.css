@@ -385,5 +385,17 @@ ul {
   ul li a {
     width: 100%;
   }
+  .ref1 {
+    background-color: #262626;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+    text-align: center;
+    display: block;    
+    }
 
+.textosuperior {
+    text-align: center;
+
+    padding-top: 15px;
+}  
 }

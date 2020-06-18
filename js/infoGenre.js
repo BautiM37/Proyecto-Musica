@@ -21,10 +21,11 @@ window.addEventListener("load", function() {
             
                 let nuevoHtmlGenre = `
                 <img class= "fototop" src="` + img + `" alt="">
+                <div class="textosuperior">
                 <h2 class="tit1"> ` + name + ` </h2>
                 <p class="subt1">Los mejores artistas de ` + name + `</p>
                 <a href="Tracks.html"><i class="fas fa-chevron-left"></i></a>
-                `
+                </div>`
     
                 document.querySelector(".ref1").innerHTML = nuevoHtmlGenre
                 

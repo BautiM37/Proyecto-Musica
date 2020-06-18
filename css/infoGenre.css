@@ -174,7 +174,21 @@ a{
 ul{
     display: none;
 }
-
+@media (min-width: 700px){
+    .ref1 {
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+    .textosuperior {
+        text-align: left;
+        padding-top: 15px;
+    }
+    p.subt1 {
+        margin-left: 0;
+    }
+}
 @media (min-width: 1023px){
 
 header.yes{
@@ -300,5 +314,17 @@ ul {
   ul li a {
     width: 100%;
   }
+  .ref1 {
+    background-color: #262626;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+    text-align: center;
+    display: block;    
+    }
 
+.textosuperior {
+    text-align: center;
+
+    padding-top: 15px;
+}  
 }
