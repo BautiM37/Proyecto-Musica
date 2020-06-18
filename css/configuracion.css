@@ -44,7 +44,7 @@ color: white;
 }
 
 .ColoresPagina{
-    margin-left: -50px;
+    margin-left: 200px;
     display: grid;
     grid-template-columns: 300px 300px;
 
@@ -390,5 +390,24 @@ ul {
   ul li a {
     width: 100%;
   }
+
+}
+
+@media (max-width: 768px){
+header.yes{
+    width: 97vw;
+}
+div.ref1{
+    width: 97vw;
+}
+.ColoresPagina{
+    margin-left: 200px;
+}
+div.redes{
+    display: grid;
+    grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
+    margin-left: 7vw;
+}
+
 
 }
