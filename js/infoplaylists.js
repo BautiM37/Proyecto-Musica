@@ -16,7 +16,7 @@ window.addEventListener("load", function() {
 
             let titulo = resultado.title;
             let name = resultado.creator.name;
-            let img = resultado.picture;
+            let img = resultado.picture_big;
             let nºTracks = resultado.nb_tracks;
             let desc = resultado.description;
             let fans = resultado.fans;
@@ -24,13 +24,14 @@ window.addEventListener("load", function() {
 
             let nuevoHtml = `
             <img class="fototop" src="` + img + `" alt="">
+           <div class="textosuperior">
             <h1 class="tit1">`+ titulo + `</h1>
-            <p> Nº Tracks: ` + nºTracks + `</p>
+            <p class="subt1"> Nº Tracks: ` + nºTracks + `</p>
             <p class="subt1">Creado por: ` + name + `</p>
-            <p>Fans: ` + fans + `</p>
-            <p>Descripción: ` + desc + `</p>
+            <p class="subt1">Fans: ` + fans + `</p>
+            <p class="subt1">Descripción: ` + desc + `</p>
             <a href="playlistsHome.html"><i class="fas fa-chevron-left"></i></a>
-            `
+            </div>`
 
             document.querySelector(".ref1").innerHTML = nuevoHtml
             

@@ -25,13 +25,15 @@ window.addEventListener("load", function() {
 
             let nuevoHtml = `
             <img class="fototop" src="` + img + `" alt="">
+            <div class="textosuperior">
             <h1 class="tit1">`+ titulo + `</h1>
-            <p> Duración: ` + long + ` segundos</p>
+            <p class="subt1"> Duración: ` + long + ` segundos</p>
             <p class="subt1">Artista: <a href="Info.artistas.html?idArtist=` + idArt + `">` + name + `</a></p>
-            <p>Album: <a href="infoalbum.html?idAlbum=` + idAlbum + `">` + album + `</a></p>
-            <p>Fecha de publicación: ` + date + `</p>
-            <a href="Playlist.html"><p>Agregar a Mi Playlist</p></a>
-            <a href="Tracks.html"><i class="fas fa-chevron-left"></i></a>`
+            <p class="subt1">Album: <a href="infoalbum.html?idAlbum=` + idAlbum + `">` + album + `</a></p>
+            <p class="subt1">Fecha de publicación: ` + date + `</p>
+            <a href="Playlist.html"><p class="agregarcancion">Agregar a Mi Playlist</p></a>
+            <a href="Tracks.html"><i class="fas fa-chevron-left"></i></a>
+            </div>`
 
             document.querySelector(".ref1").innerHTML = nuevoHtml
             

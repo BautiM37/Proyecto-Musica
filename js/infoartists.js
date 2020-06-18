@@ -22,11 +22,14 @@ window.addEventListener("load", function() {
 
             let nuevoHtml = `
             <img class="fototop" src="` + img + `" alt="">
+            <div class="textosuperior">
             <h1 class="tit1">` + name + `</h1>
             <p class="subt1">` + fans + ` seguidores</p>
-            <p>Tracks destacados:</p>
+            <p class="subt1">Tracks destacados:</p>
             <a href="Artists.html"><i class="fas fa-chevron-left"></i></a>
+            </div>
             `
+
 
             document.querySelector(".ref1").innerHTML = nuevoHtml
 

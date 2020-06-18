@@ -5,12 +5,18 @@ body.whole{
     background-size: cover;
     font-family: 'Montserrat', sans-serif !important;
 }
+ 
+
+
+
 .brillex{
     margin-right: 800px
 }
+
 .puntex{
     color: #262626;
 }
+
 .idioma3{
     display: grid;
     grid-template-columns: 200px 200px;
@@ -21,26 +27,68 @@ body.whole{
 .langu{
     margin-right: 800px;
 }
+
 .idiomaa{
     margin-right: 500;
     color: white;
     background-color:#262626 ;
-    padding: 10px;
+    padding: 0px;
     width: 200px;
     border-color: black;
     font-size: 15px;
     box-shadow: 0, 5px 25px rgba(0,0,0, 0.5);
 }
+
 .pais{
 color: white;
+}
 
+.ColoresPagina{
+    margin-left: -50px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+
+}
+
+.display{
+    margin-right: 500;
+    color: white;
+    background-color:#262626 ;
+    padding: 0px;
+    width: 200px;
+    border-color: black;
+    font-size: 15px;
+    box-shadow: 0, 5px 25px rgba(0,0,0, 0.5);
+}
+
+.LenguageyDisplay{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-content: space-evenly;
+    margin-left: -120px;
+}
+
+.redeSociale{
+    padding-left: -300px;
 }
 
 .redes{
     display: grid;
-    grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
-    margin-left: 6.5vw;
+    grid-template-columns: 100px 100px 100px;
+    margin-left: 350px;
 }
+
+.facebook{
+    font-size: 30px;
+}
+.insta{
+    font-size: 30px;
+}
+.google{
+    font-size: 30px;}
+
+
+
 
 header.yes{
     background-color: #262626;
@@ -156,6 +204,8 @@ div.ref1{
     margin-bottom: 50px;
     border-top-left-radius: 6%;
     border-top-right-radius: 6%;
+    border-bottom-left-radius: 6%;
+    border-bottom-right-radius: 6%;
     text-align: center;
     border-bottom: black 2px solid;
     padding-top: 10px;

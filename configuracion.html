@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="css/configuracion.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="js/configuracion.js"></script>
 </head>
-<body>
+<body id="body">
     <body class="whole">
         <header class="yes">
             <h1 class="yes">WeMUSIC</h1>
@@ -19,17 +20,35 @@
             <div class="ref1">
                 <h1 class="tit1">Configuration</h1>
                 <p class="subt1">Adjust it your way</p>
-                <h2 class="brillex">Brightness</h2>
                 <p class="puntex">.</p>
-                <div class="idioma3">
-                <h2 class="langu">Language </h2>
-                <select class="idiomaa" name="idioma" id="idioma">
-                    <option class="pais" value="Idioma">English</option>
-                    <option class="pais" value="Idioma">Spanish</option>
-                    <option class="pais" value="Idioma">French</option>
-                    <option class="pais" value="Idioma">Chinese</option>
-                </select>
-               </div>
+                    <div class="LenguageyDisplay">
+                        <div class="idioma3">
+                            <h2 class="langu">Language </h2>
+                            <select class="idiomaa" name="idioma" id="idioma">
+                                <option class="pais" value="Idioma">English</option>
+                                <option class="pais" value="Idioma">Spanish</option>
+                                <option class="pais" value="Idioma">French</option>
+                                <option class="pais" value="Idioma">Chinese</option>
+                            </select>
+                        </div>
+                        <div class="ColoresPagina"> 
+                            <h2>Display</h2>
+                                <select class="display" name="display" id="colo3" onchange="cambiaFondo(this)">
+                                    <option  value="Black">Black</option>
+                                    <option  value="Green">Green</option>
+                                    <option  value="Blue">Blue</option>
+                                    <option value="#262626">Grey</option>
+                                </select>
+                    </div>
+
+                    <p class="puntex">.</p>
+
+                     </div>
+                        
+                     
+                
+                
+              
             
                 
            </div>
