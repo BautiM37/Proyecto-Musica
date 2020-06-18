@@ -15,6 +15,7 @@ window.addEventListener("load", function() {
             let resul = informacion.data;
 
             if (resul.length == 0) {
+
                 let htmlEmpty = `
                 <section class="songen">
                 <p class="nums"> <a href="Index.html"><i class="fas fa-chevron-left"></i></a> </p>
@@ -28,7 +29,7 @@ window.addEventListener("load", function() {
 
                 document.querySelector(".updated").innerHTML = desaparecer
                 document.querySelector(".blackhole").innerHTML = desaparecer
-                document.querySelector(".results").innerHTML += htmlEmpty
+                document.querySelector(".resultsTra").innerHTML += htmlEmpty
             }
 
             for (let index = 0; index < 5; index++) {

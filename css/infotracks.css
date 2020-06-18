@@ -84,10 +84,22 @@ header.yes{
     border-radius: 6%;
 }
 
+.reproducir{
+    width: 95vw;
+    height: 100px;
+}
+
 .fa-chevron-left{
     position: absolute;
     top: 27vh;
     left: 8vw;
+}
+
+.fa-heart{
+    position: absolute;
+    top: 27vh;
+    right: 8vw;
+    font-size: 25px;
 }
 
 h1.yes{
@@ -182,29 +194,28 @@ span{
     font-size: 16px;
 }
 .agregarcancion {
+    display: none;
+}
+@media (min-width: 700px){
+    
+.ref1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+    }
+
+.textosuperior {
+    text-align: left;
+    padding-top: 15px;
+}  
+.agregarcancion {
     background-color: red;
     border-radius: 15px;
     width: fit-content;
     padding: 5px;
+    display: block;
 }
-@media (min-width: 700px){
-    .ref1 {
-        
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    
-    }
-    .textosuperior {
-        text-align: left;
-        padding-top: 15px;
-    }
-    
-    
-    
-    
-    
-    
-    }
+}
+
 @media (min-width: 1023px){
 
 header.yes{
@@ -268,6 +279,12 @@ p.nosotros{
     position: absolute;
     top: 27vh;
     left: 20vw;
+}
+
+.fa-heart{
+    position: absolute;
+    top: 27vh;
+    right: 20vw;
 }
 
 .hyper{

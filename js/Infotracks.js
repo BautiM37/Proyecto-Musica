@@ -33,6 +33,7 @@ window.addEventListener("load", function() {
             <p class="subt1">Fecha de publicación: ` + date + `</p>
             <a href="Playlist.html"><p class="agregarcancion">Agregar a Mi Playlist</p></a>
             <a href="Tracks.html"><i class="fas fa-chevron-left"></i></a>
+            <i class="far fa-heart"></i>
             </div>`
 
             document.querySelector(".ref1").innerHTML = nuevoHtml
@@ -61,7 +62,24 @@ window.addEventListener("load", function() {
             let nuevoHtmlLink = `<p class= linkshare>` + link + `</p>`
     
             document.querySelector(".dropdown-content").innerHTML += nuevoHtmlLink
-    
-    
+
             })
+
+        fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/" + codigoTrack)
+        .then(
+            function(respuesta) {
+                return respuesta.json();            
+            }
+        )
+        .then(
+            function(resultado) {
+                console.log (resultado)
+            
+            let escuchar =`
+            <iframe class="reproducir" scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=700&height=350&color=007FEB&layout=dark&size=medium&type=tracks&id=` + codigoTrack + `&app_id=1" width="700" height="350"></iframe>
+            `
+            document.querySelector(".listen").innerHTML = escuchar
+        }
+    )
+
 })

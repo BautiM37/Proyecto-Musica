@@ -18,8 +18,8 @@ window.addEventListener("load", function(){
     if (color != null){
         
         document.querySelector("header").style.backgroundColor = color;
-        document.querySelector("div.ref1").style.backgroundColor = color;
-        document.querySelector("a.links").style.backgroundColor = color;
+        document.querySelector(".ref1").style.backgroundColor = color;
+        document.querySelector(".links").style.backgroundColor = color;
     
     }
 })
