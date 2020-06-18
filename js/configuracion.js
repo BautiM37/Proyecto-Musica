@@ -19,7 +19,5 @@ window.addEventListener("load", function(){
         
         document.querySelector("header").style.backgroundColor = color;
         document.querySelector(".ref1").style.backgroundColor = color;
-        document.querySelector(".links").style.backgroundColor = color;
-    
     }
 })
