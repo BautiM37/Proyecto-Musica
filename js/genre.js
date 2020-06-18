@@ -14,7 +14,7 @@ window.addEventListener("load", function() {
             for (let index = 0; index <= genresPopulares.length; index++) {
 
                 const cadaGenre = genresPopulares[index];
-                let img = cadaGenre.picture;
+                let img = cadaGenre.picture_big;
                 let id = cadaGenre.id;
                 let title = cadaGenre.name;
 
