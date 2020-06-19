@@ -140,8 +140,7 @@ h3.yes{
     text-align: center;
 }
 
-img.fototop{
-    width: 30vw;
+iframe{
     border-radius: 20%;
     margin-top: 10px;
 }
@@ -231,7 +230,7 @@ p.nosfoot{
         text-align: left;
         padding-top: 15px;
     }
-    .fototop {
+    iframe {
         padding-left: 20px;
     }
     
@@ -247,7 +246,7 @@ header.yes{
     margin-left: 17vw;
 }
 
-img.fototop{
+iframe{
     width: 15vw;
     margin-top: 20px;
 }

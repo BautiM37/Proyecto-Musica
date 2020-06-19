@@ -16,15 +16,14 @@ window.addEventListener("load", function() {
 
             let titulo = resultado.title;
             let name = resultado.creator.name;
-            let img = resultado.picture_big;
             let nºTracks = resultado.nb_tracks;
             let desc = resultado.description;
             let fans = resultado.fans;
             
 
             let nuevoHtml = `
-            <img class="fototop" src="` + img + `" alt="">
-           <div class="textosuperior">
+            <iframe scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=square&autoplay=false&playlist=false&width=200&height=200&color=007FEB&layout=dark&size=medium&type=playlist&id=` + codigoPlaylist + `&app_id=1" width="200" height="200"></iframe>
+            <div class="textosuperior">
             <h1 class="tit1">`+ titulo + `</h1>
             <p class="subt1"> Nº Tracks: ` + nºTracks + `</p>
             <p class="subt1">Creado por: ` + name + `</p>

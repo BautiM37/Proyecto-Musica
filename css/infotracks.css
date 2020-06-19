@@ -86,7 +86,8 @@ header.yes{
 
 .reproducir{
     width: 95vw;
-    height: 100px;
+    height: 92px;
+    margin-bottom: 15px;
 }
 
 .fa-chevron-left{

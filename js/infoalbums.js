@@ -15,7 +15,6 @@ window.addEventListener("load", function() {
             console.log (resultado)
 
             let name = resultado.artist.name;
-            let img = resultado.cover;
             let date = resultado.release_date;
             let album = resultado.title;
             let genre = resultado.genres.data;
@@ -28,7 +27,7 @@ window.addEventListener("load", function() {
             let idGenre = gens.id;
 
             let nuevoHtml = `
-            <img class="fototop" src="` + img + `" alt="">
+            <iframe scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=square&autoplay=false&playlist=false&width=200&height=200&color=007FEB&layout=dark&size=medium&type=album&id=` + codigoAlbum + `&app_id=1" width="200" height="200"></iframe>
             <div class="textosuperior">
             <h1 class="tit1">` + album + `</h1>
             <a href="Info.artistas.html?idArtist=` + idArtist + `"><p class="subt1">Artista: ` + name + `</p></a>
