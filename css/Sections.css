@@ -1,3 +1,8 @@
+html, body{
+    margin: 0;
+    width: 100%;
+}
+
 body.whole{
     color: whitesmoke;
     background-image: url(../img/fonde.jpg);
@@ -17,6 +22,10 @@ header.yes{
     border-style: solid;
     border-width: 2px;
     border-radius: 6%;
+    width: 95vw;
+    position: relative;
+    top: 10px;
+    left: 10px;
 }
 h1.yes{
     margin-left: 8px;
@@ -69,6 +78,10 @@ div.comienzo{
     display: grid;
     margin-top: 20px;
     margin-left: 0.5vw;
+    width: 95vw;
+    position: relative;
+    top: 10px;
+    left: 10px;
 }
 
 div.error{
