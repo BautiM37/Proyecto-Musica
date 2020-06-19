@@ -25,16 +25,14 @@ window.addEventListener("load", function(){
         .then(
             function(resultado) {
                 console.log (resultado)
-
-        })
-        `
+        let htmlWin =`
         <section class="song">
         <p class="nums"> - </p>
-        <a href="Infotracks.html?idTrack=` + id + `"> <img class="tops" src= "`+ img + `" alt="">
-        <p class="name">` + name + `</p></a>
+        <a href="Infotracks.html?idTrack="> <img class="tops" src= "" alt="">
+        <p class="name"></p></a>
         </section>
         `
-        document.querySelector(".ref2").innerHTML += htmlEmpty
+        document.querySelector(".ref2").innerHTML += htmlWin
+    })
     }
-    }
-})
+}})

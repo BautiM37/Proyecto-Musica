@@ -56,6 +56,22 @@ h1.tit1{
     color: whitesmoke;	
 }	
 
+section.songen{
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-right: 8px;
+    border-bottom: black 1px dotted;
+    max-height: 90px; 
+}
+
+img.fotoError{
+    max-width: 80px;
+    max-height: 88px;
+    border: black 1px solid;
+    border-radius: 20%;
+    float: left;
+}
+
 p.subt1{	
     margin-left: 10px;	
 }	
