@@ -55,6 +55,7 @@ div.volver{
     display: grid;
     grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
     margin-left: 6.5vw;
+    color: white;
 }
 
 .redesx{
@@ -269,7 +270,7 @@ footer.icons{
     grid-template-columns: 30vw 30vw 30vw;
 }
 
-footer i.fas{
+footer a.fas{
     color: lightgray;
     width: 19vw;
     margin-left: 5vw;
@@ -288,6 +289,12 @@ p.nosfoot{
     text-align: center;
     margin-bottom: 50px;
     margin-top: 30px;  
+}
+
+.iconosss{
+    display: grid;
+    grid-template-columns: 30px 30px 30px 30px;
+    margin-left: 50px;
 }
 
 @media (min-width: 1023px){

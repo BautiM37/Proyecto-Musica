@@ -1,11 +1,18 @@
 window.addEventListener("load", function() {
+    // Ir a buscar la informacion a Deezer con este fetch// 
 
-    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/tracks")
+        fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/tracks")
+
+    // desempaquetar la informacion //
+
     .then(
         function(respuesta) {
             return respuesta.json();            
         }
     )
+
+    // Agarrar la informacion y ponerla en su respectivo HTML//
+    
     .then(
         function(informacion) {
             console.log (informacion)
