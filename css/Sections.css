@@ -57,6 +57,13 @@ div.volver{
     margin-left: 6.5vw;
 }
 
+.redesx{
+    display: grid;
+    grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;
+    margin-left: 6.5vw;
+    margin-top: 220px;
+}
+
 .hyper{
     color:white;
     padding-left: 25px;
@@ -89,14 +96,16 @@ div.error{
     padding: 10px;
     border: 1px solid whitesmoke;
     width: 90vw;
-    margin-left: -8px;
+    position: relative;
+    right: 10px;
 }
 
 div.comienzoen{
     grid-template-columns: 95vw;
     display: grid;
     margin-top: 20px;
-    margin-left: 0.5vw;
+    position: relative;
+    left: 10px;
 }
 
 .tit1{
