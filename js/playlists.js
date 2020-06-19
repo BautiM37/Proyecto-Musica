@@ -25,7 +25,7 @@ window.addEventListener("load", function(){
         .then(
             function(resultado) {
                 console.log (resultado)
-                
+
         })
         `
         <section class="song">
@@ -34,6 +34,7 @@ window.addEventListener("load", function(){
         <p class="name">` + name + `</p></a>
         </section>
         `
+        document.querySelector(".ref2").innerHTML += htmlEmpty
     }
     }
 })

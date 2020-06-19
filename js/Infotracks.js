@@ -38,6 +38,10 @@ window.addEventListener("load", function() {
 
             document.querySelector(".ref1").innerHTML = nuevoHtml
             
+            lasFavs = []
+            lasFavs.push(codigoTrack)
+
+            localStorage.setItem("favs", lasFavs);
         }
     )
 
