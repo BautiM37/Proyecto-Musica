@@ -1,6 +1,6 @@
 window.addEventListener("load", function(){
 
-    if (localStorage.getItem("favs") == null) {
+    if (sessionStorage.getItem("favs") == null) {
         
         let htmlEmpty = `
                 <section class="songen">
@@ -25,14 +25,20 @@ window.addEventListener("load", function(){
         .then(
             function(resultado) {
                 console.log (resultado)
+            
+                let name = resultado.title;
+                let id = resultado.id;
+                let img = resultado.album.cover;
+
         let htmlWin =`
         <section class="song">
         <p class="nums"> - </p>
-        <a href="Infotracks.html?idTrack="> <img class="tops" src= "" alt="">
-        <p class="name"></p></a>
+        <a href="Infotracks.html?idTrack=` + id + `"> <img class="tops" src= "` + img + `" alt="">
+        <p class="name">` + name + `</p></a>
         </section>
         `
         document.querySelector(".ref2").innerHTML += htmlWin
     })
     }
 }})
+

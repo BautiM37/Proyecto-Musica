@@ -112,7 +112,7 @@ header.yes{
     left: 8vw;
 }
 
-.fa-heart{
+.liked{
     position: absolute;
     top: 27vh;
     right: 8vw;
@@ -306,7 +306,7 @@ p.nosotros{
     left: 20vw;
 }
 
-.fa-heart{
+.liked{
     position: absolute;
     top: 27vh;
     right: 20vw;

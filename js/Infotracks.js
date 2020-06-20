@@ -33,11 +33,23 @@ window.addEventListener("load", function() {
             <p class="subt1">Fecha de publicación: ` + date + `</p>
             <a href="Playlist.html"><p class="agregarcancion">Agregar a Mi Playlist</p></a>
             <a href="Tracks.html"><i class="fas fa-chevron-left"></i></a>
-            <i class="far fa-heart"></i>
+            <button class="liked"><i class="far fa-heart"></i></button>
             </div>`
 
             document.querySelector(".ref1").innerHTML = nuevoHtml
-            
+
+            document.querySelector(".liked").addEventListener("click", function(){
+                let arrayIfLiked;
+                if (sessionStorage.getItem("favs") != null) {
+                    arrayIfLiked = sessionStorage.getItem("favs").split(",")
+                    arrayIfLiked.push(codigoTrack)
+                } else {
+                    arrayIfLiked = []
+                    arrayIfLiked.push(codigoTrack)
+                }
+
+                sessionStorage.setItem("favs", arrayIfLiked);
+            })
         }
     )
 
