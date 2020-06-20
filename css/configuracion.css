@@ -1,3 +1,8 @@
+html, body{
+    margin: 0;
+    width: 100%;
+}
+
 body.whole{
     color: whitesmoke;
     background-image: url(../img/fonde.jpg);
@@ -5,57 +10,21 @@ body.whole{
     background-size: cover;
     font-family: 'Montserrat', sans-serif !important;
 }
- 
-
-
-
-.brillex{
-    margin-right: 800px
-}
 
 .puntex{
     color: #262626;
 }
 
-.idioma3{
-    display: grid;
-    grid-template-columns: 200px 200px;
-    justify-content: left;
-    padding-left: 50px;
-}
-
-.langu{
-    margin-right: 800px;
-}
-
-.idiomaa{
-    margin-right: 500;
-    color: white;
-    background-color:#262626 ;
-    padding: 0px;
-    width: 200px;
-    border-color: black;
-    font-size: 15px;
-    box-shadow: 0, 5px 25px rgba(0,0,0, 0.5);
-}
-
-.pais{
-color: white;
-}
-
 .ColoresPagina{
-    margin-left: 200px;
     display: grid;
     grid-template-columns: 300px 300px;
-
 }
 
 .display{
-    margin-right: 500;
     color: white;
     background-color:#262626 ;
     padding: 0px;
-    width: 200px;
+    width: 25vw;
     border-color: black;
     font-size: 15px;
     box-shadow: 0, 5px 25px rgba(0,0,0, 0.5);
@@ -63,19 +32,8 @@ color: white;
 
 .LenguageyDisplay{
     display: grid;
-    grid-template-columns: 400px 400px;
+    grid-template-columns: 40vw 40vw;
     justify-content: space-evenly;
-    margin-left: -120px;
-}
-
-.redeSociale{
-    padding-left: -300px;
-}
-
-.redes{
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
-    margin-left: 350px;
 }
 
 .facebook{
@@ -87,9 +45,6 @@ color: white;
 .google{
     font-size: 30px;}
 
-
-
-
 header.yes{
     background-color: #262626;
     margin-bottom: 50px;
@@ -97,6 +52,9 @@ header.yes{
     border-style: solid;
     border-width: 2px;
     border-radius: 6%;
+    position: relative;
+    left: 10px;
+    top: 10px;
 }
 
 h1.yes{
@@ -111,25 +69,6 @@ h3.yes{
     text-align: center;
 }
 
-.fa-chevron-left{
-    position: absolute;
-    top: 27vh;
-    left: 8vw;
-}
-
-img.fototop{
-    width: 30vw;
-    border-radius: 20%;
-    padding-top: 1vh;
-}
-
-h3.canal{
-    text-align: left;
-    margin-left: 2vw;
-    font-size: 15px;
-    margin-top: 26px;
-}
-
 a.return{
     color: whitesmoke;
     text-decoration: none;
@@ -139,7 +78,8 @@ div.comienzo{
     grid-template-columns: 95vw;
     display: grid;
     margin-top: 20px;
-    margin-left: 0.5vw;
+    position: relative;
+    left: 10px;
 }
 
 .blackhole{
@@ -395,14 +335,12 @@ ul {
 
 @media (max-width: 768px){
 header.yes{
-    width: 97vw;
+    width: 95vw;
 }
 div.ref1{
-    width: 97vw;
+    width: 95vw;
 }
-.ColoresPagina{
-    margin-left: 200px;
-}
+
 div.redes{
     display: grid;
     grid-template-columns: 23.25vw 23.25vw 23.25vw 23.25vw;

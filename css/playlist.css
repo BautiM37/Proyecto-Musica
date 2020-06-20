@@ -16,11 +16,13 @@ header.yes{
 }	
 h1.yes{	
     margin-left: 8px;	
-    color: whitesmoke;	
+    color: whitesmoke;
+    text-align: center;	
 }	
 h3.yes{	
     margin-left: 8px;	
     color: whitesmoke;	
+    text-align: center;
 }	
 
 ul{
