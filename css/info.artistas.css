@@ -273,7 +273,11 @@ a{
     padding-top: 15px;
 }
 
-
+img.fototop{
+    position: relative;
+    left: 107px;
+    width: 23vw;
+}
 
 
 
@@ -291,6 +295,7 @@ img.fototop{
     width: 15vw;
     margin-top: 20px;
     border-top-left-radius: none;
+    position: inherit;
 }
 
 div.ref1{
@@ -438,6 +443,12 @@ ul {
     text-align: center;
 
     padding-top: 15px;
-}  
+} 
+iframe{
+    margin-left: 17vw;
+}
+.reproducir{
+    width: 80vw;
+} 
 
 }

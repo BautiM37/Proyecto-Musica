@@ -65,6 +65,19 @@ div.volver{
     margin-top: 220px;
 }
 
+.que1{
+    position: relative;
+    left: 10px;
+}
+.que2{
+    position: relative;
+    left: 10px;
+}
+.que3{
+    position: relative;
+    left: 10px;
+}
+
 .hyper{
     color:white;
     padding-left: 25px;
@@ -99,6 +112,7 @@ div.error{
     width: 90vw;
     position: relative;
     right: 10px;
+    top: 14px;
 }
 
 div.comienzoen{
@@ -322,7 +336,12 @@ div.comienzoen{
 .resultsTra{
     width: 80vw;
 }
-
+.resultsAlb{
+    width: 80vw;
+}
+.resultsArt{
+    width: 80vw;
+}
 .ref3{
     width: 80vw;
 }
@@ -409,6 +428,9 @@ ul {
   
   ul li a {
     width: 100%;
+  }
+  div.error{
+      width: 78vw;
   }
 
 }

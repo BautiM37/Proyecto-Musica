@@ -247,8 +247,10 @@ p.nosfoot{
         text-align: left;
         padding-left: 50px;
     }
-.fototop {
-    padding-left: 30px;
+    iframe {
+    position: relative;
+    left: 107px;
+    width: 23vw;
 }
     }
 @media (min-width: 1023px){
@@ -258,13 +260,14 @@ header.yes{
     margin-left: 17vw;
 }
 
-img.fototop{
+iframe{
     width: 15vw;
     margin-top: 20px;
+    position: inherit;
 }
 
 div.ref1{
-    width: 80vw;
+    width: 77.2vw;
     margin-left: 17vw;  
 }
 
@@ -338,7 +341,7 @@ section.song{
 }
 
 .dropbtn{
-    width: 80vw;
+    width: 79.2vw;
     margin-left: 17vw; 
 }
 

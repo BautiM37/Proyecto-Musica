@@ -188,6 +188,11 @@ ul{
     p.subt1 {
         margin-left: 0;
     }
+    img.fototop{
+        width: 23vw;
+        position: relative;
+        left: 107px;
+    }
 }
 @media (min-width: 1023px){
 
@@ -201,6 +206,7 @@ img.fototop{
     width: 15vw;
     margin-top: 20px;
     border-top-left-radius: none;
+    position: inherit;
 }
 
 div.ref1{

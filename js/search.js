@@ -26,7 +26,9 @@ window.addEventListener("load", function() {
                 let desaparecer = `
                 <div class="desaparecer"></div>
                 `
-
+                document.querySelector(".que1").innerHTML = desaparecer
+                document.querySelector(".que2").innerHTML = desaparecer
+                document.querySelector(".que3").innerHTML = desaparecer
                 document.querySelector(".updated").innerHTML = desaparecer
                 document.querySelector(".blackhole").innerHTML = desaparecer
                 document.querySelector(".resultsTra").innerHTML += htmlEmpty

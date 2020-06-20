@@ -137,13 +137,13 @@ header.yes{
 
 .fa-chevron-left{
     position: absolute;
-    top: 27vh;
+    top: 5vh;
     left: 8vw;
 }
 
 .liked{
     position: absolute;
-    top: 27vh;
+    top: 4vh;
     right: 8vw;
     font-size: 25px;
 }
@@ -261,12 +261,13 @@ span{
     text-align: left;
     padding-top: 15px;
 }  
-.agregarcancion {
-    background-color: red;
-    border-radius: 15px;
-    width: fit-content;
-    padding: 5px;
-    display: block;
+
+img.fototop{
+    width: 25vw;
+    border-radius: 20%;
+    margin-top: 10px;
+    position: relative;
+    left: 107px;
 }
 }
 
@@ -280,6 +281,7 @@ header.yes{
 img.fototop{
     width: 15vw;
     margin-top: 20px;
+    position: inherit;
 }
 
 div.ref1{
@@ -335,7 +337,6 @@ p.nosotros{
 
 .fa-chevron-left{
     position: absolute;
-    top: 27vh;
     left: 20vw;
 }
 
@@ -345,8 +346,7 @@ section.song{
 
 .liked{
     position: absolute;
-    top: 27vh;
-    right: 20vw;
+    right: 9vw;
 }
 
 .hyper{
@@ -406,15 +406,15 @@ p.linkshare{
 
     padding-top: 15px;
 }  
-.agregarcancion {
-    background-color: red;
-    border-radius: 15px;
-    width: fit-content;
-    padding: 5px;
-    text-align: center;
-}
+
 .ref1 a{
-display: flex;
 justify-content: center;
+}
+
+iframe{
+    margin-left: 17vw;
+}
+.reproducir{
+    width: 80vw;
 }
 }

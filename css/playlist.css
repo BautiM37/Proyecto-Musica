@@ -70,6 +70,23 @@ img.fotoError{
     float: left;
 }
 
+.dislike{
+    float: right;
+    position: relative;
+    top: -43px;
+    right: 10px;
+    background-color: black;
+    box-shadow: none;
+    border: whitesmoke 1px solid;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.fa-times{
+    padding-left: inherit;
+}
+
 p.subt1{	
     margin-left: 10px;	
 }	

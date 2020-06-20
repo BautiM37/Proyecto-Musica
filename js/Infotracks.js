@@ -31,25 +31,26 @@ window.addEventListener("load", function() {
             <p class="subt1">Artista: <a href="Info.artistas.html?idArtist=` + idArt + `">` + name + `</a></p>
             <p class="subt1">Album: <a href="infoalbum.html?idAlbum=` + idAlbum + `">` + album + `</a></p>
             <p class="subt1">Fecha de publicación: ` + date + `</p>
-            <a href="Playlist.html"><p class="agregarcancion">Agregar a Mi Playlist</p></a>
             <a href="Tracks.html"><i class="fas fa-chevron-left"></i></a>
             <i class="liked far fa-heart"></i>
             </div>`
 
             document.querySelector(".ref1").innerHTML = nuevoHtml
-
-            document.querySelector(".liked").addEventListener("click", function(){
-                let arrayIfLiked;
-                if (sessionStorage.getItem("favs") != null) {
-                    arrayIfLiked = sessionStorage.getItem("favs").split(",")
-                    arrayIfLiked.push(codigoTrack)
-                } else {
-                    arrayIfLiked = []
-                    arrayIfLiked.push(codigoTrack)
-                }
-
-                sessionStorage.setItem("favs", arrayIfLiked);
-            })
+           
+                document.querySelector(".liked").addEventListener("click", function(){
+                    let arrayIfLiked;
+                    if (sessionStorage.getItem("favs") != null) {
+                        arrayIfLiked = sessionStorage.getItem("favs").split(",")
+                        arrayIfLiked.push(codigoTrack)
+                    } else {
+                        arrayIfLiked = []
+                        arrayIfLiked.push(codigoTrack)
+                    }
+    
+                    sessionStorage.setItem("favs", arrayIfLiked);
+                })
+            
+           
         }
     )
 
