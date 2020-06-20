@@ -71,6 +71,35 @@ p.linkshare{
     width: 95vw;
     text-align: center;
 }
+img.tops{
+    max-width: 80px;
+    max-height: 90%;
+    border: black 1px solid;
+    border-radius: 20%;
+    float: left;
+}
+p.nums{
+    float: left;
+    margin-right: 7px;
+    padding: 10px 8px;
+}
+p.name{
+    margin-left: 123px;
+    padding: 12px;
+    font-size: 16px;
+}
+div.ref2{
+    background-color: rgba(61, 61, 61, 0.5);
+    display: grid;
+    grid-template-columns: 95vw;
+}
+section.song{
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-right: 8px;
+    border-bottom: black 1px dotted;
+    max-height: 90px;
+}
 
 .blackhole{
     background-color: black;
@@ -283,6 +312,10 @@ footer i.fas{
     margin-bottom: 10px;
     width: auto;
 }
+.ref2{
+    width: 80vw;
+    margin-left: 17vw;
+}
 
 footer i.fa-home{
     margin-top: 5vw;
@@ -304,6 +337,10 @@ p.nosotros{
     position: absolute;
     top: 27vh;
     left: 20vw;
+}
+
+section.song{
+    width: 79vw;
 }
 
 .liked{

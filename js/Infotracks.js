@@ -33,7 +33,7 @@ window.addEventListener("load", function() {
             <p class="subt1">Fecha de publicación: ` + date + `</p>
             <a href="Playlist.html"><p class="agregarcancion">Agregar a Mi Playlist</p></a>
             <a href="Tracks.html"><i class="fas fa-chevron-left"></i></a>
-            <button class="liked"><i class="far fa-heart"></i></button>
+            <i class="liked far fa-heart"></i>
             </div>`
 
             document.querySelector(".ref1").innerHTML = nuevoHtml
